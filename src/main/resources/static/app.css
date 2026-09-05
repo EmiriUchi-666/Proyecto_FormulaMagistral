@@ -1,0 +1,140 @@
+:root {
+    --fp-primary: #16a34a;
+    --fp-primary-hover: #15803d;
+    --fp-sidebar-width: 260px;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f8f9fa;
+}
+
+[data-bs-theme="dark"] body {
+    background-color: #1a1d21;
+}
+
+/* Sidebar */
+.sidebar {
+    width: var(--fp-sidebar-width);
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #ffffff;
+    border-right: 1px solid #e9ecef;
+    z-index: 1030;
+    transition: transform 0.3s ease;
+    overflow-y: auto;
+}
+
+[data-bs-theme="dark"] .sidebar {
+    background: #212529;
+    border-color: #373c43;
+}
+
+.sidebar .nav-link {
+    color: #495057;
+    border-radius: 6px;
+    margin: 2px 8px;
+    padding: 0.6rem 1rem;
+}
+
+[data-bs-theme="dark"] .sidebar .nav-link {
+    color: #a1a8b0;
+}
+
+.sidebar .nav-link.active,
+.sidebar .nav-link:hover {
+    background-color: rgba(22, 163, 74, 0.1);
+    color: var(--fp-primary);
+    font-weight: 600;
+}
+
+.sidebar .nav-link i {
+    margin-right: 10px;
+}
+
+/* Main Content */
+.main-content {
+    margin-left: var(--fp-sidebar-width);
+    padding: 20px;
+    transition: margin 0.3s;
+}
+
+.topbar {
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid #e9ecef;
+    padding: 12px 24px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+}
+
+[data-bs-theme="dark"] .topbar {
+    background: rgba(33, 37, 41, 0.9);
+    border-color: #373c43;
+}
+
+/* Tablas */
+.table thead th {
+    position: sticky;
+    top: 0;
+    background: var(--bs-body-bg);
+    z-index: 1;
+    font-weight: 600;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Badges de estado */
+.badge-estado-pendiente { background: #fff3cd; color: #856404; }
+.badge-estado-en_preparacion { background: #cce5ff; color: #004085; }
+.badge-estado-lista { background: #d4edda; color: #155724; }
+.badge-estado-entregada { background: #e2e3e5; color: #383d41; }
+.badge-estado-pagada { background: #d4edda; color: #155724; }
+.badge-estado-anulada { background: #f8d7da; color: #721c24; }
+
+/* Semáforo Inventario */
+.semaforo-vencido { background-color: #f8d7da; color: #721c24; }
+.semaforo-riesgo { background-color: #fff3cd; color: #856404; }
+.semaforo-vigente { background-color: #d4edda; color: #155724; }
+
+/* Login */
+.login-bg {
+    background: linear-gradient(135deg, #16a34a 0%, #15803d 100%);
+    min-height: 100vh;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .sidebar {
+        transform: translateX(-100%);
+    }
+    .sidebar.show {
+        transform: translateX(0);
+    }
+    .main-content {
+        margin-left: 0;
+    }
+}
+
+/* Print Ticket */
+@media print {
+    .no-print, .sidebar, .topbar {
+        display: none !important;
+    }
+    .main-content {
+        margin: 0;
+        padding: 0;
+    }
+    .ticket-print {
+        border: 1px dashed #000;
+        padding: 20px;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+}

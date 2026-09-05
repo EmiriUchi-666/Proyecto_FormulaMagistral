@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" th:replace="~{layout/main :: layout('Dashboard', 'dashboard')}">
+<body>
+<main th:fragment="content">
+    <h4 class="mb-4">Panel de Control</h4>
+    <div class="row g-4 mb-4">
+        <div class="col-md-3">
+            <div class="card border-0 shadow-sm p-3">
+                <h6 class="text-muted small">Ventas Hoy</h6>
+                <h3 class="text-success fw-bold mb-0" th:text="${kpiVentasHoy}"></h3>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card border-0 shadow-sm p-3">
+                <h6 class="text-muted small">Ingresos</h6>
+                <h3 class="fw-bold mb-0" th:text="${kpiIngresos}"></h3>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card border-0 shadow-sm p-3">
+                <h6 class="text-muted small">Órdenes Activas</h6>
+                <h3 class="fw-bold mb-0" th:text="${kpiOrdenes}"></h3>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card border-0 shadow-sm p-3">
+                <h6 class="text-muted small">Alertas Inventario</h6>
+                <h3 class="text-danger fw-bold mb-0" th:text="${kpiAlertas}"></h3>
+            </div>
+        </div>
+    </div>
+    <div class="row g-4">
+        <div class="col-lg-8">
+            <div class="card border-0 shadow-sm p-3">
+                <h6 class="mb-3">Ventas Últimos 7 Días</h6>
+                <canvas id="ventasChart" height="120"></canvas>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card border-0 shadow-sm p-3">
+                <h6 class="mb-3">Últimas Ventas</h6>
+                <div class="table-responsive">
+                    <table class="table table-hover align-middle mb-0">
+                        <thead>
+                            <tr><th>ID</th><th>Cliente</th><th>Total</th><th>Estado</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr th:each="v : ${ultimasVentas}">
+                                <td th:text="${v.id}"></td>
+                                <td th:text="${v.cliente}"></td>
+                                <td th:text="${v.total}"></td>
+                                <td>
+                                    <span class="badge" th:classappend="'badge-estado-' + ${#strings.toLowerCase(v.estado)}" th:text="${v.estado}"></span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<th:block th:fragment="scripts">
+<script>
+    new Chart(document.getElementById('ventasChart'), {
+        type: 'line',
+        data: {
+            labels: [[${chartLabels}]],
+            datasets: [{
+                label: 'Ventas (S/)',
+                data: [[${chartData}]],
+                borderColor: '#16a34a',
+                backgroundColor: 'rgba(22, 163, 74, 0.1)',
+                tension: 0.4,
+                fill: true
+            }]
+        },
+        options: {
+            responsive: true,
+            plugins: { legend: { display: false } }
+        }
+    });
+</script>
+</th:block>
+</body>
+</html>

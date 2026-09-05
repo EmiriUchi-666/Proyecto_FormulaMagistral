@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" th:replace="~{layout/main :: layout('Recetas', 'recetas')}">
+<body>
+<main th:fragment="content">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h4>Recetas</h4>
+        <a th:href="@{/recetas/nuevo}" class="btn btn-success btn-sm">
+            <i class="bi bi-plus-lg"></i> Nueva Receta
+        </a>
+    </div>
+    <div class="card border-0 shadow-sm">
+        <div class="card-body">
+            <div th:if="${#lists.isEmpty(recetas)}" class="text-center py-5 text-muted">
+                <i class="bi bi-file-earmark-text display-4"></i>
+                <p class="mt-2">No hay recetas registradas.</p>
+            </div>
+            <div th:unless="${#lists.isEmpty(recetas)}" class="table-responsive">
+                <table class="table table-hover align-middle">
+                    <thead>
+                        <tr><th>ID</th><th>N° Receta</th><th>Cliente</th><th>Médico</th><th>Fecha</th><th class="text-end">Acciones</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr th:each="r : ${recetas}">
+                            <td th:text="${r.id}"></td>
+                            <td th:text="${r.num_receta}"></td>
+                            <td th:text="${r.cliente}"></td>
+                            <td th:text="${r.medico}"></td>
+                            <td th:text="${r.fecha_emision}"></td>
+                            <td class="text-end">
+                                <button th:onclick="'confirmarEliminar(\'/recetas/eliminar/' + ${r.id} + '\', \'' + ${r.num_receta} + '\')'" class="btn btn-sm btn-light text-danger">
+                                    <i class="bi bi-trash"></i>
+                                </button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</main>
+</body>
+</html>

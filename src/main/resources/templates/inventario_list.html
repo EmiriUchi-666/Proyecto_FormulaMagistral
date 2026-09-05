@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" th:replace="~{layout/main :: layout('Inventario', 'inventario')}">
+<body>
+<main th:fragment="content">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h4>Inventario de Materias Primas</h4>
+        <button class="btn btn-outline-success btn-sm" onclick="exportarCSV([{id:'L-001',materia:'Paracetamol',stock:500}], 'inventario')">
+            <i class="bi bi-file-earmark-spreadsheet"></i> CSV
+        </button>
+    </div>
+    <div class="card border-0 shadow-sm">
+        <div class="card-body">
+            <div th:if="${#lists.isEmpty(lotes)}" class="text-center py-5 text-muted">
+                <i class="bi bi-box-seam display-4"></i>
+                <p class="mt-2">No hay lotes registrados.</p>
+            </div>
+            <div th:unless="${#lists.isEmpty(lotes)}" class="table-responsive">
+                <table class="table table-hover align-middle">
+                    <thead>
+                        <tr><th>Lote</th><th>Materia Prima</th><th>Vencimiento</th><th>Estado</th><th>Stock</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr th:each="lote : ${lotes}">
+                            <td th:text="${lote.id}"></td>
+                            <td th:text="${lote.materia}"></td>
+                            <td th:text="${#temporals.format(lote.vencimiento, 'dd/MM/yyyy')}"></td>
+                            <td>
+                                <span th:if="${lote.vencimiento.isBefore(#temporals.createNow())}" class="badge semaforo-vencido">VENCIDO</span>
+                                <span th:if="${!lote.vencimiento.isBefore(#temporals.createNow()) and lote.vencimiento.isBefore(#temporals.createNow().plusDays(30))}" class="badge semaforo-riesgo">VENCE PRONTO</span>
+                                <span th:if="${lote.vencimiento.isAfter(#temporals.createNow().plusDays(30))}" class="badge semaforo-vigente">VIGENTE</span>
+                            </td>
+                            <td style="width: 200px;">
+                                <div class="d-flex align-items-center gap-2">
+                                    <div class="progress flex-grow-1" style="height: 8px;">
+                                        <div class="progress-bar bg-success" th:style="'width:' + (${lote.stock} * 100 / ${lote.max}) + '%'"></div>
+                                    </div>
+                                    <small th:text="${lote.stock} + '/' + ${lote.max}"></small>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</main>
+</body>
+</html>
