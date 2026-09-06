@@ -38,7 +38,12 @@ public class Paciente {
     private String email;
 
 
-    @Column(name="fecha_registro")
+     @Column(name="fecha_registro")
     private LocalDateTime fechaRegistro;
+
+    @PrePersist
+    public void prePersist(){
+        fechaRegistro = LocalDateTime.now();
+    }
 
 }
