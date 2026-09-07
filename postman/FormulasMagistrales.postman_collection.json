@@ -1,0 +1,668 @@
+{
+  "info": {
+    "name": "Fórmulas Magistrales - Inventario, Ventas y Reportes",
+    "description": "Colección de pruebas para los módulos de Inventario, Ventas y Reportes del sistema de fórmulas magistrales. Usa la variable {{base_url}} (por defecto http://localhost:8080).",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://localhost:8080"
+    }
+  ],
+  "item": [
+    {
+      "name": "Proveedores",
+      "item": [
+        {
+          "name": "Listar todos",
+          "request": {
+            "method": "GET",
+            "url": "{{base_url}}/proveedores"
+          }
+        },
+        {
+          "name": "Buscar por nombre (parcial)",
+          "request": {
+            "method": "GET",
+            "url": "{{base_url}}/proveedores?nombre=distrib"
+          }
+        },
+        {
+          "name": "Buscar por RUC (exacto)",
+          "request": {
+            "method": "GET",
+            "url": "{{base_url}}/proveedores?ruc=20123456789"
+          }
+        },
+        {
+          "name": "Listar solo activos",
+          "request": {
+            "method": "GET",
+            "url": "{{base_url}}/proveedores?soloActivos=true"
+          }
+        },
+        {
+          "name": "Buscar por ID",
+          "request": {
+            "method": "GET",
+            "url": "{{base_url}}/proveedores/1"
+          }
+        },
+        {
+          "name": "Crear proveedor (válido)",
+          "request": {
+            "method": "POST",
+            "url": "{{base_url}}/proveedores",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"nombre\": \"Distribuidora Salud SAC\",\n  \"ruc\": \"20123456789\",\n  \"telefono\": \"074-123456\",\n  \"email\": \"[email protected]\",\n  \"direccion\": \"Av. Los Incas 123, Chiclayo\",\n  \"activo\": true\n}"
+            }
+          }
+        },
+        {
+          "name": "Crear proveedor (inválido - espera 400)",
+          "request": {
+            "method": "POST",
+            "url": "{{base_url}}/proveedores",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"nombre\": \"\",\n  \"ruc\": \"123\",\n  \"email\": \"correo-invalido\"\n}"
+            }
+          }
+        },
+        {
+          "name": "Actualizar proveedor",
+          "request": {
+            "method": "PUT",
+            "url": "{{base_url}}/proveedores/1",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"nombre\": \"Distribuidora Salud SAC (actualizado)\",\n  \"ruc\": \"20123456789\",\n  \"telefono\": \"074-654321\",\n  \"email\": \"[email protected]\",\n  \"direccion\": \"Av. Los Incas 456, Chiclayo\",\n  \"activo\": true\n}"
+            }
+          }
+        },
+        {
+          "name": "Eliminar proveedor",
+          "request": {
+            "method": "DELETE",
+            "url": "{{base_url}}/proveedores/1"
+          }
+        },
+        {
+          "name": "Buscar por ID inexistente (espera 404)",
+          "request": {
+            "method": "GET",
+            "url": "{{base_url}}/proveedores/9999"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Unidades de Medida",
+      "item": [
+        {
+          "name": "Listar todas",
+          "request": {
+            "method": "GET",
+            "url": "{{base_url}}/unidades-medida"
+          }
+        },
+        {
+          "name": "Buscar por ID",
+          "request": {
+            "method": "GET",
+            "url": "{{base_url}}/unidades-medida/1"
+          }
+        },
+        {
+          "name": "Crear unidad de medida",
+          "request": {
+            "method": "POST",
+            "url": "{{base_url}}/unidades-medida",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"nombre\": \"Mililitro\",\n  \"abreviatura\": \"ml\"\n}"
+            }
+          }
+        },
+        {
+          "name": "Crear unidad (inválida - espera 400)",
+          "request": {
+            "method": "POST",
+            "url": "{{base_url}}/unidades-medida",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"nombre\": \"\",\n  \"abreviatura\": \"\"\n}"
+            }
+          }
+        },
+        {
+          "name": "Actualizar unidad de medida",
+          "request": {
+            "method": "PUT",
+            "url": "{{base_url}}/unidades-medida/1",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"nombre\": \"Gramo\",\n  \"abreviatura\": \"g\"\n}"
+            }
+          }
+        },
+        {
+          "name": "Eliminar unidad de medida",
+          "request": {
+            "method": "DELETE",
+            "url": "{{base_url}}/unidades-medida/1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Materias Primas",
+      "item": [
+        {
+          "name": "Listar todas",
+          "request": {
+            "method": "GET",
+            "url": "{{base_url}}/materias-primas"
+          }
+        },
+        {
+          "name": "Listar solo activas",
+          "request": {
+            "method": "GET",
+            "url": "{{base_url}}/materias-primas?soloActivas=true"
+          }
+        },
+        {
+          "name": "Buscar por nombre (parcial)",
+          "request": {
+            "method": "GET",
+            "url": "{{base_url}}/materias-primas?nombre=paracetamol"
+          }
+        },
+        {
+          "name": "Buscar por tipo",
+          "request": {
+            "method": "GET",
+            "url": "{{base_url}}/materias-primas?tipo=excipiente"
+          }
+        },
+        {
+          "name": "Buscar por ID",
+          "request": {
+            "method": "GET",
+            "url": "{{base_url}}/materias-primas/1"
+          }
+        },
+        {
+          "name": "Crear materia prima (válido)",
+          "request": {
+            "method": "POST",
+            "url": "{{base_url}}/materias-primas",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"nombre\": \"Paracetamol\",\n  \"tipo\": \"principio activo\",\n  \"unidadMedida\": { \"idUnidad\": 1 },\n  \"stockMinimo\": 50,\n  \"proveedor\": { \"idProveedor\": 1 },\n  \"activo\": true\n}"
+            }
+          }
+        },
+        {
+          "name": "Crear materia prima (inválida - espera 400)",
+          "request": {
+            "method": "POST",
+            "url": "{{base_url}}/materias-primas",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"nombre\": \"\",\n  \"tipo\": \"\",\n  \"stockMinimo\": -10\n}"
+            }
+          }
+        },
+        {
+          "name": "Actualizar materia prima",
+          "request": {
+            "method": "PUT",
+            "url": "{{base_url}}/materias-primas/1",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"nombre\": \"Paracetamol 500mg\",\n  \"tipo\": \"principio activo\",\n  \"unidadMedida\": { \"idUnidad\": 1 },\n  \"stockMinimo\": 60,\n  \"proveedor\": { \"idProveedor\": 1 }\n}"
+            }
+          }
+        },
+        {
+          "name": "Desactivar materia prima (baja lógica)",
+          "request": {
+            "method": "DELETE",
+            "url": "{{base_url}}/materias-primas/1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Lotes de Materia Prima",
+      "item": [
+        {
+          "name": "Listar todos",
+          "request": {
+            "method": "GET",
+            "url": "{{base_url}}/lotes-materia-prima"
+          }
+        },
+        {
+          "name": "Listar por materia prima",
+          "request": {
+            "method": "GET",
+            "url": "{{base_url}}/lotes-materia-prima?idMateriaPrima=1"
+          }
+        },
+        {
+          "name": "Listar vencidos",
+          "request": {
+            "method": "GET",
+            "url": "{{base_url}}/lotes-materia-prima?vencidos=true"
+          }
+        },
+        {
+          "name": "Listar con stock bajo",
+          "request": {
+            "method": "GET",
+            "url": "{{base_url}}/lotes-materia-prima?stockBajo=true"
+          }
+        },
+        {
+          "name": "Buscar por ID",
+          "request": {
+            "method": "GET",
+            "url": "{{base_url}}/lotes-materia-prima/1"
+          }
+        },
+        {
+          "name": "Crear lote (válido)",
+          "request": {
+            "method": "POST",
+            "url": "{{base_url}}/lotes-materia-prima",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"materiaPrima\": { \"idMateriaPrima\": 1 },\n  \"codigoLote\": \"L-2026-001\",\n  \"fechaIngreso\": \"2026-09-01\",\n  \"fechaVencimiento\": \"2027-09-01\",\n  \"cantidadInicial\": 100,\n  \"cantidadActual\": 100,\n  \"costoUnitario\": 2.50\n}"
+            }
+          }
+        },
+        {
+          "name": "Crear lote (inválido - espera 400)",
+          "request": {
+            "method": "POST",
+            "url": "{{base_url}}/lotes-materia-prima",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"codigoLote\": \"\",\n  \"cantidadInicial\": -5,\n  \"costoUnitario\": 0\n}"
+            }
+          }
+        },
+        {
+          "name": "Actualizar lote",
+          "request": {
+            "method": "PUT",
+            "url": "{{base_url}}/lotes-materia-prima/1",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"codigoLote\": \"L-2026-001-B\",\n  \"fechaIngreso\": \"2026-09-01\",\n  \"fechaVencimiento\": \"2027-12-01\",\n  \"cantidadInicial\": 100,\n  \"cantidadActual\": 100,\n  \"costoUnitario\": 2.75\n}"
+            }
+          }
+        },
+        {
+          "name": "Eliminar lote",
+          "request": {
+            "method": "DELETE",
+            "url": "{{base_url}}/lotes-materia-prima/1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Movimientos de Inventario",
+      "item": [
+        {
+          "name": "Listar todos",
+          "request": {
+            "method": "GET",
+            "url": "{{base_url}}/movimientos-inventario"
+          }
+        },
+        {
+          "name": "Listar por lote (kardex)",
+          "request": {
+            "method": "GET",
+            "url": "{{base_url}}/movimientos-inventario?idLote=1"
+          }
+        },
+        {
+          "name": "Buscar por ID",
+          "request": {
+            "method": "GET",
+            "url": "{{base_url}}/movimientos-inventario/1"
+          }
+        },
+        {
+          "name": "Registrar ENTRADA",
+          "request": {
+            "method": "POST",
+            "url": "{{base_url}}/movimientos-inventario",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"lote\": { \"idLote\": 1 },\n  \"tipoMovimiento\": \"ENTRADA\",\n  \"cantidad\": 20,\n  \"motivo\": \"Compra a proveedor\",\n  \"idUsuario\": 1\n}"
+            }
+          }
+        },
+        {
+          "name": "Registrar SALIDA (con stock suficiente)",
+          "request": {
+            "method": "POST",
+            "url": "{{base_url}}/movimientos-inventario",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"lote\": { \"idLote\": 1 },\n  \"tipoMovimiento\": \"SALIDA\",\n  \"cantidad\": 5,\n  \"motivo\": \"Uso en preparación\",\n  \"idUsuario\": 1\n}"
+            }
+          }
+        },
+        {
+          "name": "Registrar SALIDA sin stock suficiente (espera 409)",
+          "request": {
+            "method": "POST",
+            "url": "{{base_url}}/movimientos-inventario",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"lote\": { \"idLote\": 1 },\n  \"tipoMovimiento\": \"SALIDA\",\n  \"cantidad\": 999999,\n  \"motivo\": \"Prueba de stock insuficiente\",\n  \"idUsuario\": 1\n}"
+            }
+          }
+        },
+        {
+          "name": "Registrar movimiento inválido (espera 400)",
+          "request": {
+            "method": "POST",
+            "url": "{{base_url}}/movimientos-inventario",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"lote\": { \"idLote\": 1 },\n  \"tipoMovimiento\": \"TRASLADO\",\n  \"cantidad\": -5,\n  \"idUsuario\": 1\n}"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Ventas",
+      "item": [
+        {
+          "name": "Listar todas",
+          "request": {
+            "method": "GET",
+            "url": "{{base_url}}/ventas"
+          }
+        },
+        {
+          "name": "Listar por paciente",
+          "request": {
+            "method": "GET",
+            "url": "{{base_url}}/ventas?idPaciente=1"
+          }
+        },
+        {
+          "name": "Listar por estado",
+          "request": {
+            "method": "GET",
+            "url": "{{base_url}}/ventas?estado=EMITIDA"
+          }
+        },
+        {
+          "name": "Listar por rango de fechas",
+          "request": {
+            "method": "GET",
+            "url": "{{base_url}}/ventas?desde=2026-09-01T00:00:00&hasta=2026-09-30T23:59:59"
+          }
+        },
+        {
+          "name": "Buscar por ID",
+          "request": {
+            "method": "GET",
+            "url": "{{base_url}}/ventas/1"
+          }
+        },
+        {
+          "name": "Registrar venta (válida)",
+          "request": {
+            "method": "POST",
+            "url": "{{base_url}}/ventas",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"paciente\": { \"idPaciente\": 1 },\n  \"idUsuario\": 1,\n  \"tipoComprobante\": \"BOLETA\",\n  \"numComprobante\": \"B001-0001\",\n  \"total\": 45.50\n}"
+            }
+          }
+        },
+        {
+          "name": "Registrar venta (inválida - espera 400)",
+          "request": {
+            "method": "POST",
+            "url": "{{base_url}}/ventas",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"tipoComprobante\": \"\",\n  \"total\": -10\n}"
+            }
+          }
+        },
+        {
+          "name": "Anular venta",
+          "request": {
+            "method": "PUT",
+            "url": "{{base_url}}/ventas/1/anular"
+          }
+        },
+        {
+          "name": "Eliminar venta",
+          "request": {
+            "method": "DELETE",
+            "url": "{{base_url}}/ventas/1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Ventas Detalle",
+      "item": [
+        {
+          "name": "Listar todas",
+          "request": {
+            "method": "GET",
+            "url": "{{base_url}}/ventas-detalle"
+          }
+        },
+        {
+          "name": "Listar por venta",
+          "request": {
+            "method": "GET",
+            "url": "{{base_url}}/ventas-detalle?idVenta=1"
+          }
+        },
+        {
+          "name": "Buscar por ID",
+          "request": {
+            "method": "GET",
+            "url": "{{base_url}}/ventas-detalle/1"
+          }
+        },
+        {
+          "name": "Registrar detalle (válido, calcula subtotal)",
+          "request": {
+            "method": "POST",
+            "url": "{{base_url}}/ventas-detalle",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"venta\": { \"idVenta\": 1 },\n  \"idOrden\": 1,\n  \"cantidad\": 2,\n  \"precioUnitario\": 15.50\n}"
+            }
+          }
+        },
+        {
+          "name": "Registrar detalle (inválido - espera 400)",
+          "request": {
+            "method": "POST",
+            "url": "{{base_url}}/ventas-detalle",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"cantidad\": -1,\n  \"precioUnitario\": 0\n}"
+            }
+          }
+        },
+        {
+          "name": "Eliminar detalle",
+          "request": {
+            "method": "DELETE",
+            "url": "{{base_url}}/ventas-detalle/1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Reportes",
+      "item": [
+        {
+          "name": "Lotes por vencer",
+          "request": {
+            "method": "GET",
+            "url": "{{base_url}}/reportes/lotes-por-vencer"
+          }
+        },
+        {
+          "name": "Fórmulas más vendidas",
+          "request": {
+            "method": "GET",
+            "url": "{{base_url}}/reportes/formulas-mas-vendidas"
+          }
+        },
+        {
+          "name": "Inventario valorizado",
+          "request": {
+            "method": "GET",
+            "url": "{{base_url}}/reportes/inventario-valorizado"
+          }
+        }
+      ]
+    }
+  ]
+}
