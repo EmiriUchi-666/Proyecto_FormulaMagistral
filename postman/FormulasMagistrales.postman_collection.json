@@ -639,6 +639,73 @@
       ]
     },
     {
+      "name": "Citas Médicas",
+      "item": [
+        {
+          "name": "Listar todas",
+          "request": {
+            "method": "GET",
+            "url": "{{base_url}}/citas"
+          }
+        },
+        {
+          "name": "Buscar por ID",
+          "request": {
+            "method": "GET",
+            "url": "{{base_url}}/citas/1"
+          }
+        },
+        {
+          "name": "Registrar cita (válida)",
+          "request": {
+            "method": "POST",
+            "url": "{{base_url}}/citas",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"fechaHora\": \"2026-09-15T10:30:00\",\n  \"motivo\": \"Control dermatológico\",\n  \"estado\": \"PROGRAMADA\",\n  \"paciente\": { \"idPaciente\": 1 }\n}"
+            }
+          }
+        },
+        {
+          "name": "Actualizar cita",
+          "request": {
+            "method": "PUT",
+            "url": "{{base_url}}/citas/1",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"fechaHora\": \"2026-09-15T11:00:00\",\n  \"motivo\": \"Control dermatológico (reprogramado)\",\n  \"estado\": \"ATENDIDA\",\n  \"paciente\": { \"idPaciente\": 1 }\n}"
+            }
+          }
+        },
+        {
+          "name": "Eliminar cita",
+          "request": {
+            "method": "DELETE",
+            "url": "{{base_url}}/citas/1"
+          }
+        },
+        {
+          "name": "Buscar por ID inexistente (espera 404)",
+          "request": {
+            "method": "GET",
+            "url": "{{base_url}}/citas/9999"
+          }
+        }
+      ]
+    },
+    {
       "name": "Reportes",
       "item": [
         {

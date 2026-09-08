@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" th:replace="~{layout/main :: layout('Usuario', 'usuarios/form')}">
+<body>
+<main th:fragment="content">
+    <h4 class="mb-4">Nuevo Usuario</h4>
+    <div class="card border-0 shadow-sm p-4" style="max-width: 600px;">
+        <form th:action="@{/app/usuarios/guardar}" method="post">
+            <div class="mb-3">
+                <label class="form-label">Nombres</label>
+                <input type="text" class="form-control" name="nombres" required>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Apellidos</label>
+                <input type="text" class="form-control" name="apellidos" required>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Email (será el usuario de inicio de sesión)</label>
+                <input type="email" class="form-control" name="email" required>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Contraseña</label>
+                <input type="password" class="form-control" name="password" required>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Rol</label>
+                <select class="form-select" name="idRol" required>
+                    <option th:each="rol : ${roles}" th:value="${rol.idRol}" th:text="${rol.nombre}"></option>
+                </select>
+            </div>
+            <div class="d-flex gap-2">
+                <button type="submit" class="btn btn-success">Guardar</button>
+                <a th:href="@{/app/usuarios}" class="btn btn-outline-secondary">Cancelar</a>
+            </div>
+        </form>
+    </div>
+</main>
+<th:block th:fragment="scripts"></th:block>
+</body>
+</html>

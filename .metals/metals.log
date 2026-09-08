@@ -13194,3 +13194,1097 @@ set. 07, 2026 2:46:31 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCanc
 WARNING: Unmatched cancel notification for request id 1132
 set. 07, 2026 2:46:38 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
 WARNING: Unmatched cancel notification for request id 1139
+2026.09.07 16:19:17 INFO  Started: Metals version 1.6.7+41-335bd931-SNAPSHOT in folders 'C:\Users\Antony\Documents\Proyecto_FM' for client Visual Studio Code 1.136.1.
+2026.09.07 16:19:17 INFO  Memory monitor started
+2026.09.07 16:19:26 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.09.07 16:19:26 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\ProveedorController.java. Using fallback presentation compiler.
+2026.09.07 16:19:27 INFO  Attempting to connect to the build server...
+2026.09.07 16:19:27 INFO  No running Bloop server found, starting one.
+set. 07, 2026 4:19:30 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2026.09.07 16:19:30 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\ProveedorController.java. Using fallback presentation compiler.
+set. 07, 2026 4:19:31 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+2026.09.07 16:19:31 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\ProveedorController.java. Using fallback presentation compiler.
+2026.09.07 16:19:35 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\ProveedorController.java. Using fallback presentation compiler.
+2026.09.07 16:19:51 INFO  Starting compilation server
+2026.09.07 16:20:07 ERROR Bloop server PID: 12828
+Ignoring SIGINT
+Will truncate output file C:\Users\Antony\AppData\Local\ScalaCli\data\bloop\daemon\output every 5 minutes
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by monix.execution.internal.atomic.NormalJava8BoxedObject (file:/C:/Users/Antony/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/io/monix/monix-execution_2.12/3.2.0/monix-execution_2.12-3.2.0.jar)
+WARNING: Please consider reporting this to the maintainers of class monix.execution.internal.atomic.NormalJava8BoxedObject
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+Unable to load nailgun-version.properties.
+NGServer [UNKNOWN] started on local socket C:\Users\Antony\AppData\Local\ScalaCli\data\bloop\daemon\socket.
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::loadLibrary has been called by dev.dirs.impl.WindowsForeign in an unnamed module (file:/C:/Users/Antony/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/io/get-coursier/util/directories/0.1.2/directories-0.1.2.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+
+2026.09.07 16:20:08 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: Timeout (10 seconds) while waiting for BSP socket to be created in C:\Users\Antony\AppData\Local\ScalaCli\data\bloop\bsp\1868-1
+	at scala.sys.package$.error(package.scala:27)
+	at bloop.rifle.internal.Operations$$anon$1.openSocket(Operations.scala:422)
+	at scala.meta.internal.metals.BloopServers.create$1(BloopServers.scala:422)
+	at scala.meta.internal.metals.BloopServers.openConnection$1(BloopServers.scala:438)
+	at scala.meta.internal.metals.BloopServers.$anonfun$connect$5(BloopServers.scala:451)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:691)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.lang.Thread.run(Thread.java:1516)
+
+2026.09.07 16:20:08 WARN  no build target for: C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\ProveedorService.java
+2026.09.07 16:20:08 WARN  no build target for: C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\MateriaPrimaService.java
+2026.09.07 16:20:08 WARN  no build target for: C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\LoteMateriaPrimaService.java
+2026.09.07 16:20:08 WARN  no build target for: C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Repository\UnidadMedidaRepository.java
+2026.09.07 16:20:08 WARN  no build target for: C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\MovimientoInventarioService.java
+2026.09.07 16:20:08 WARN  no build target for: C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\ProveedorController.java
+2026.09.07 16:20:08 WARN  no build target for: C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Model\LoteMateriaPrima.java
+2026.09.07 16:20:08 WARN  no build target for: C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Model\MovimientoInventario.java
+2026.09.07 16:20:08 WARN  no build target for: C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Repository\MovimientoInventarioRepository.java
+2026.09.07 16:20:08 WARN  no build target for: C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\UnidadMedidaService.java
+2026.09.07 16:20:08 WARN  no build target for: C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Repository\LoteMateriaPrimaRepository.java
+2026.09.07 16:20:08 WARN  no build target for: C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Repository\ProveedorRepository.java
+2026.09.07 16:20:08 WARN  no build target for: C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Repository\MateriaPrimaRepository.java
+2026.09.07 16:20:08 WARN  no build target for: C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Model\MateriaPrima.java
+2026.09.07 16:20:08 WARN  no build target for: C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Model\UnidadMedida.java
+2026.09.07 16:20:08 WARN  no build target for: C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Model\Proveedor.java
+2026.09.07 16:20:08 WARN  Running javac-semanticdb failed for file:///C:/Users/Antony/Documents/Proyecto_FM/src/main/java/com/example/consultoriomedico/Model/MovimientoInventario.java. Output:
+
+2026.09.07 16:20:08 WARN  Running javac-semanticdb failed for file:///C:/Users/Antony/Documents/Proyecto_FM/src/main/java/com/example/consultoriomedico/Model/MateriaPrima.java. Output:
+
+2026.09.07 16:20:08 WARN  Running javac-semanticdb failed for file:///C:/Users/Antony/Documents/Proyecto_FM/src/main/java/com/example/consultoriomedico/Model/LoteMateriaPrima.java. Output:
+
+2026.09.07 16:20:08 WARN  Running javac-semanticdb failed for file:///C:/Users/Antony/Documents/Proyecto_FM/src/main/java/com/example/consultoriomedico/Service/UnidadMedidaService.java. Output:
+
+2026.09.07 16:20:08 WARN  Running javac-semanticdb failed for file:///C:/Users/Antony/Documents/Proyecto_FM/src/main/java/com/example/consultoriomedico/Model/Proveedor.java. Output:
+
+2026.09.07 16:20:08 WARN  Running javac-semanticdb failed for file:///C:/Users/Antony/Documents/Proyecto_FM/src/main/java/com/example/consultoriomedico/Service/MovimientoInventarioService.java. Output:
+
+2026.09.07 16:20:08 WARN  Running javac-semanticdb failed for file:///C:/Users/Antony/Documents/Proyecto_FM/src/main/java/com/example/consultoriomedico/Repository/ProveedorRepository.java. Output:
+
+2026.09.07 16:20:08 WARN  Running javac-semanticdb failed for file:///C:/Users/Antony/Documents/Proyecto_FM/src/main/java/com/example/consultoriomedico/Repository/MateriaPrimaRepository.java. Output:
+
+2026.09.07 16:20:08 WARN  Running javac-semanticdb failed for file:///C:/Users/Antony/Documents/Proyecto_FM/src/main/java/com/example/consultoriomedico/Repository/UnidadMedidaRepository.java. Output:
+
+2026.09.07 16:20:08 WARN  Running javac-semanticdb failed for file:///C:/Users/Antony/Documents/Proyecto_FM/src/main/java/com/example/consultoriomedico/Service/LoteMateriaPrimaService.java. Output:
+
+2026.09.07 16:20:08 WARN  Running javac-semanticdb failed for file:///C:/Users/Antony/Documents/Proyecto_FM/src/main/java/com/example/consultoriomedico/Service/ProveedorService.java. Output:
+
+2026.09.07 16:20:09 WARN  Running javac-semanticdb failed for file:///C:/Users/Antony/Documents/Proyecto_FM/src/main/java/com/example/consultoriomedico/Repository/MovimientoInventarioRepository.java. Output:
+
+2026.09.07 16:20:09 WARN  Running javac-semanticdb failed for file:///C:/Users/Antony/Documents/Proyecto_FM/src/main/java/com/example/consultoriomedico/Repository/LoteMateriaPrimaRepository.java. Output:
+
+2026.09.07 16:20:09 WARN  Running javac-semanticdb failed for file:///C:/Users/Antony/Documents/Proyecto_FM/src/main/java/com/example/consultoriomedico/Service/MateriaPrimaService.java. Output:
+
+2026.09.07 16:20:09 WARN  Running javac-semanticdb failed for file:///C:/Users/Antony/Documents/Proyecto_FM/src/main/java/com/example/consultoriomedico/Controller/ProveedorController.java. Output:
+
+2026.09.07 16:20:09 INFO  time: code lens generation in 1.07s
+2026.09.07 16:20:09 INFO  time: code lens generation in 1.07s
+2026.09.07 16:20:09 WARN  Running javac-semanticdb failed for file:///C:/Users/Antony/Documents/Proyecto_FM/src/main/java/com/example/consultoriomedico/Model/UnidadMedida.java. Output:
+
+2026.09.07 16:20:21 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\ProveedorController.java. Using fallback presentation compiler.
+2026.09.07 16:20:22 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\ProveedorController.java. Using fallback presentation compiler.
+2026.09.07 16:20:31 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\ProveedorController.java. Using fallback presentation compiler.
+2026.09.07 16:20:37 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\ProveedorController.java. Using fallback presentation compiler.
+2026.09.07 16:20:40 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\ProveedorController.java. Using fallback presentation compiler.
+2026.09.07 16:20:57 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\ProveedorController.java. Using fallback presentation compiler.
+2026.09.07 16:21:51 WARN  no build target for: C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\UnidadMedidaController.java
+2026.09.07 16:21:51 WARN  Running javac-semanticdb failed for file:///C:/Users/Antony/Documents/Proyecto_FM/src/main/java/com/example/consultoriomedico/Controller/UnidadMedidaController.java. Output:
+
+2026.09.07 16:21:51 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\UnidadMedidaController.java. Using fallback presentation compiler.
+2026.09.07 16:21:57 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\UnidadMedidaController.java. Using fallback presentation compiler.
+2026.09.07 16:21:57 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\UnidadMedidaController.java. Using fallback presentation compiler.
+2026.09.07 16:21:58 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\UnidadMedidaController.java. Using fallback presentation compiler.
+set. 07, 2026 4:21:58 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 30
+2026.09.07 16:21:58 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\UnidadMedidaController.java. Using fallback presentation compiler.
+2026.09.07 16:21:58 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\UnidadMedidaController.java. Using fallback presentation compiler.
+set. 07, 2026 4:21:59 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 32
+2026.09.07 16:21:58 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\UnidadMedidaController.java. Using fallback presentation compiler.
+2026.09.07 16:21:59 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\UnidadMedidaController.java. Using fallback presentation compiler.
+2026.09.07 16:21:59 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\UnidadMedidaController.java. Using fallback presentation compiler.
+2026.09.07 16:22:04 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\UnidadMedidaController.java. Using fallback presentation compiler.
+2026.09.07 16:22:04 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\UnidadMedidaController.java. Using fallback presentation compiler.
+2026.09.07 16:22:04 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\UnidadMedidaController.java. Using fallback presentation compiler.
+2026.09.07 16:22:05 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\UnidadMedidaController.java. Using fallback presentation compiler.
+2026.09.07 16:22:43 WARN  no build target for: C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\MateriaPrimaController.java
+2026.09.07 16:22:43 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\MateriaPrimaController.java. Using fallback presentation compiler.
+2026.09.07 16:22:43 WARN  Running javac-semanticdb failed for file:///C:/Users/Antony/Documents/Proyecto_FM/src/main/java/com/example/consultoriomedico/Controller/MateriaPrimaController.java. Output:
+
+2026.09.07 16:22:44 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\MateriaPrimaController.java. Using fallback presentation compiler.
+2026.09.07 16:22:44 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\MateriaPrimaController.java. Using fallback presentation compiler.
+2026.09.07 16:22:44 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\MateriaPrimaController.java. Using fallback presentation compiler.
+set. 07, 2026 4:22:45 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 54
+2026.09.07 16:22:44 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\MateriaPrimaController.java. Using fallback presentation compiler.
+2026.09.07 16:22:56 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\MateriaPrimaController.java. Using fallback presentation compiler.
+set. 07, 2026 4:22:56 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 60
+2026.09.07 16:22:56 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\MateriaPrimaController.java. Using fallback presentation compiler.
+2026.09.07 16:22:58 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\MateriaPrimaController.java. Using fallback presentation compiler.
+2026.09.07 16:22:58 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\MateriaPrimaController.java. Using fallback presentation compiler.
+2026.09.07 16:22:58 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\MateriaPrimaController.java. Using fallback presentation compiler.
+2026.09.07 16:22:58 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\MateriaPrimaController.java. Using fallback presentation compiler.
+set. 07, 2026 4:22:58 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 66
+2026.09.07 16:23:10 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\MateriaPrimaController.java. Using fallback presentation compiler.
+set. 07, 2026 4:23:10 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 70
+2026.09.07 16:23:10 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\MateriaPrimaController.java. Using fallback presentation compiler.
+2026.09.07 16:23:12 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\MateriaPrimaController.java. Using fallback presentation compiler.
+2026.09.07 16:23:12 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\MateriaPrimaController.java. Using fallback presentation compiler.
+2026.09.07 16:23:25 WARN  no build target for: C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\LoteMateriaPrimaController.java
+2026.09.07 16:23:26 WARN  Running javac-semanticdb failed for file:///C:/Users/Antony/Documents/Proyecto_FM/src/main/java/com/example/consultoriomedico/Controller/LoteMateriaPrimaController.java. Output:
+
+2026.09.07 16:23:25 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\LoteMateriaPrimaController.java. Using fallback presentation compiler.
+2026.09.07 16:23:29 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\LoteMateriaPrimaController.java. Using fallback presentation compiler.
+2026.09.07 16:23:29 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\LoteMateriaPrimaController.java. Using fallback presentation compiler.
+2026.09.07 16:23:29 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\LoteMateriaPrimaController.java. Using fallback presentation compiler.
+2026.09.07 16:23:30 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\LoteMateriaPrimaController.java. Using fallback presentation compiler.
+2026.09.07 16:23:30 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\LoteMateriaPrimaController.java. Using fallback presentation compiler.
+2026.09.07 16:23:30 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\LoteMateriaPrimaController.java. Using fallback presentation compiler.
+2026.09.07 16:23:32 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\LoteMateriaPrimaController.java. Using fallback presentation compiler.
+2026.09.07 16:23:32 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\LoteMateriaPrimaController.java. Using fallback presentation compiler.
+set. 07, 2026 4:23:32 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 88
+2026.09.07 16:23:32 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\LoteMateriaPrimaController.java. Using fallback presentation compiler.
+set. 07, 2026 4:23:32 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 89
+2026.09.07 16:23:32 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\LoteMateriaPrimaController.java. Using fallback presentation compiler.
+2026.09.07 16:23:33 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\LoteMateriaPrimaController.java. Using fallback presentation compiler.
+2026.09.07 16:24:19 WARN  no build target for: C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\MovimientoInventarioController.java
+2026.09.07 16:24:19 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\MovimientoInventarioController.java. Using fallback presentation compiler.
+2026.09.07 16:24:19 WARN  Running javac-semanticdb failed for file:///C:/Users/Antony/Documents/Proyecto_FM/src/main/java/com/example/consultoriomedico/Controller/MovimientoInventarioController.java. Output:
+
+2026.09.07 16:24:20 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\MovimientoInventarioController.java. Using fallback presentation compiler.
+2026.09.07 16:24:20 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\MovimientoInventarioController.java. Using fallback presentation compiler.
+2026.09.07 16:24:20 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\MovimientoInventarioController.java. Using fallback presentation compiler.
+2026.09.07 16:24:20 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\MovimientoInventarioController.java. Using fallback presentation compiler.
+2026.09.07 16:24:24 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\MovimientoInventarioController.java. Using fallback presentation compiler.
+2026.09.07 16:24:24 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\MovimientoInventarioController.java. Using fallback presentation compiler.
+2026.09.07 16:24:26 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\MovimientoInventarioController.java. Using fallback presentation compiler.
+2026.09.07 16:24:26 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\MovimientoInventarioController.java. Using fallback presentation compiler.
+2026.09.07 16:24:26 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\MovimientoInventarioController.java. Using fallback presentation compiler.
+2026.09.07 16:24:26 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\MovimientoInventarioController.java. Using fallback presentation compiler.
+2026.09.07 16:25:04 WARN  no build target for: C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\VentaDetalleServiceTest.java
+2026.09.07 16:25:05 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\VentaDetalleServiceTest.java. Using fallback presentation compiler.
+2026.09.07 16:25:05 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\VentaDetalleServiceTest.java. Using fallback presentation compiler.
+set. 07, 2026 4:25:06 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 123
+2026.09.07 16:25:05 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\VentaDetalleServiceTest.java. Using fallback presentation compiler.
+2026.09.07 16:25:06 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\VentaDetalleServiceTest.java. Using fallback presentation compiler.
+2026.09.07 16:25:05 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\VentaDetalleServiceTest.java. Using fallback presentation compiler.
+2026.09.07 16:25:08 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\VentaDetalleServiceTest.java. Using fallback presentation compiler.
+2026.09.07 16:25:08 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\VentaDetalleServiceTest.java. Using fallback presentation compiler.
+2026.09.07 16:25:08 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\VentaDetalleServiceTest.java. Using fallback presentation compiler.
+2026.09.07 16:25:09 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\VentaDetalleServiceTest.java. Using fallback presentation compiler.
+2026.09.07 16:25:09 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\VentaDetalleServiceTest.java. Using fallback presentation compiler.
+2026.09.07 16:25:09 INFO  no build target found for c:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\VentaDetalleServiceTest.java. Using fallback presentation compiler.
+2026.09.07 16:25:11 INFO  no build target found for c:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\VentaDetalleServiceTest.java. Using fallback presentation compiler.
+2026.09.07 16:25:11 INFO  no build target found for c:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\VentaDetalleServiceTest.java. Using fallback presentation compiler.
+2026.09.07 16:25:12 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\MovimientoInventarioController.java. Using fallback presentation compiler.
+2026.09.07 16:25:12 WARN  no build target for: C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\MovimientoInventarioController.java
+2026.09.07 16:25:12 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\MovimientoInventarioController.java. Using fallback presentation compiler.
+2026.09.07 16:25:12 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\MovimientoInventarioController.java. Using fallback presentation compiler.
+set. 07, 2026 4:25:12 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 137
+2026.09.07 16:25:12 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\MovimientoInventarioController.java. Using fallback presentation compiler.
+2026.09.07 16:25:13 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\MovimientoInventarioController.java. Using fallback presentation compiler.
+2026.09.07 16:25:21 WARN  no build target for: C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\ConsultoriomedicoApplication.java
+2026.09.07 16:25:21 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\ConsultoriomedicoApplication.java. Using fallback presentation compiler.
+2026.09.07 16:25:22 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\MovimientoInventarioController.java. Using fallback presentation compiler.
+2026.09.07 16:25:22 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\UnidadMedidaController.java. Using fallback presentation compiler.
+2026.09.07 16:25:22 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\ProveedorController.java. Using fallback presentation compiler.
+2026.09.07 16:25:22 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\LoteMateriaPrimaService.java. Using fallback presentation compiler.
+2026.09.07 16:25:22 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\MovimientoInventarioService.java. Using fallback presentation compiler.
+2026.09.07 16:25:22 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\LoteMateriaPrimaController.java. Using fallback presentation compiler.
+2026.09.07 16:25:22 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\MateriaPrimaService.java. Using fallback presentation compiler.
+2026.09.07 16:25:22 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\UnidadMedidaService.java. Using fallback presentation compiler.
+2026.09.07 16:25:22 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\ProveedorService.java. Using fallback presentation compiler.
+2026.09.07 16:25:22 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Repository\MovimientoInventarioRepository.java. Using fallback presentation compiler.
+2026.09.07 16:25:22 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Repository\MateriaPrimaRepository.java. Using fallback presentation compiler.
+2026.09.07 16:25:22 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Repository\LoteMateriaPrimaRepository.java. Using fallback presentation compiler.
+2026.09.07 16:25:22 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Repository\ProveedorRepository.java. Using fallback presentation compiler.
+2026.09.07 16:25:22 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Repository\UnidadMedidaRepository.java. Using fallback presentation compiler.
+2026.09.07 16:25:22 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Model\LoteMateriaPrima.java. Using fallback presentation compiler.
+2026.09.07 16:25:22 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Model\MateriaPrima.java. Using fallback presentation compiler.
+2026.09.07 16:25:22 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\MateriaPrimaController.java. Using fallback presentation compiler.
+2026.09.07 16:25:22 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Model\UnidadMedida.java. Using fallback presentation compiler.
+2026.09.07 16:25:22 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Model\MovimientoInventario.java. Using fallback presentation compiler.
+2026.09.07 16:25:22 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Model\Proveedor.java. Using fallback presentation compiler.
+2026.09.07 16:25:23 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\ConsultoriomedicoApplication.java. Using fallback presentation compiler.
+2026.09.07 16:25:39 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Model\LoteMateriaPrima.java. Using fallback presentation compiler.
+2026.09.07 16:25:39 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Model\UnidadMedida.java. Using fallback presentation compiler.
+2026.09.07 16:25:39 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Model\MateriaPrima.java. Using fallback presentation compiler.
+2026.09.07 16:25:40 WARN  no build target for: C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\MovimientoInventarioController.java
+2026.09.07 16:25:41 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Model\MovimientoInventario.java. Using fallback presentation compiler.
+2026.09.07 16:25:42 WARN  no build target for: C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\ProveedorController.java
+2026.09.07 16:25:43 WARN  no build target for: C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\LoteMateriaPrimaService.java
+2026.09.07 16:25:44 WARN  no build target for: C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\UnidadMedidaController.java
+2026.09.07 16:25:46 WARN  no build target for: C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\MovimientoInventarioService.java
+2026.09.07 16:25:46 WARN  no build target for: C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\LoteMateriaPrimaController.java
+2026.09.07 16:25:46 WARN  no build target for: C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\MateriaPrimaService.java
+2026.09.07 16:25:46 WARN  no build target for: C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\ProveedorService.java
+2026.09.07 16:25:46 WARN  no build target for: C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\UnidadMedidaService.java
+2026.09.07 16:25:46 WARN  no build target for: C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Repository\MovimientoInventarioRepository.java
+2026.09.07 16:25:46 WARN  no build target for: C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Repository\LoteMateriaPrimaRepository.java
+2026.09.07 16:25:46 WARN  no build target for: C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Repository\ProveedorRepository.java
+2026.09.07 16:25:46 WARN  no build target for: C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Repository\MateriaPrimaRepository.java
+2026.09.07 16:25:46 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\ConsultoriomedicoApplication.java. Using fallback presentation compiler.
+2026.09.07 16:25:47 WARN  no build target for: C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Repository\UnidadMedidaRepository.java
+2026.09.07 16:25:52 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\MateriaPrimaController.java. Using fallback presentation compiler.
+2026.09.07 16:25:52 WARN  no build target for: C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Model\LoteMateriaPrima.java
+2026.09.07 16:25:52 WARN  no build target for: C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Model\UnidadMedida.java
+2026.09.07 16:25:52 WARN  no build target for: C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\MateriaPrimaController.java
+2026.09.07 16:25:52 WARN  no build target for: C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Model\MateriaPrima.java
+2026.09.07 16:25:53 WARN  no build target for: C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Model\MovimientoInventario.java
+2026.09.07 16:25:54 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Model\Proveedor.java. Using fallback presentation compiler.
+2026.09.07 16:25:57 WARN  no build target for: C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Model\Proveedor.java
+set. 07, 2026 4:26:18 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+set. 07, 2026 4:26:29 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.09.07 16:26:33 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\ProveedorController.java. Using fallback presentation compiler.
+2026.09.07 16:26:50 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\MovimientoInventarioController.java. Using fallback presentation compiler.
+2026.09.07 16:26:57 WARN  no build target for: C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\MovimientoInventarioController.java
+set. 07, 2026 4:26:57 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 174
+2026.09.07 16:26:57 WARN  no build target for: C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\VentaDetalleController.java
+2026.09.07 16:26:57 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\VentaDetalleController.java. Using fallback presentation compiler.
+2026.09.07 16:26:57 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\VentaDetalleController.java. Using fallback presentation compiler.
+2026.09.07 16:26:57 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\VentaDetalleController.java. Using fallback presentation compiler.
+2026.09.07 16:27:03 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\VentaDetalleController.java. Using fallback presentation compiler.
+2026.09.07 16:27:04 WARN  no build target for: C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\ConsultoriomedicoApplication.java
+2026.09.07 16:27:05 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\ConsultoriomedicoApplication.java. Using fallback presentation compiler.
+set. 07, 2026 4:27:05 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 183
+2026.09.07 16:27:05 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\ConsultoriomedicoApplication.java. Using fallback presentation compiler.
+2026.09.07 16:27:07 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\ConsultoriomedicoApplication.java. Using fallback presentation compiler.
+set. 07, 2026 4:27:25 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+set. 07, 2026 4:27:31 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.09.07 16:27:36 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\ConsultoriomedicoApplication.java. Using fallback presentation compiler.
+2026.09.07 16:27:37 WARN  no build target for: C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\ConsultoriomedicoApplication.java
+set. 07, 2026 4:27:37 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 195
+2026.09.07 16:27:37 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\ConsultoriomedicoApplication.java. Using fallback presentation compiler.
+2026.09.07 16:36:57 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\ConsultoriomedicoApplication.java. Using fallback presentation compiler.
+2026.09.07 16:37:36 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\ConsultoriomedicoApplication.java. Using fallback presentation compiler.
+2026.09.07 16:37:37 WARN  no build target for: C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\ConsultoriomedicoApplication.java
+2026.09.07 16:37:38 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\ConsultoriomedicoApplication.java. Using fallback presentation compiler.
+2026.09.07 16:37:41 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\ConsultoriomedicoApplication.java. Using fallback presentation compiler.
+2026.09.07 16:40:35 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\ConsultoriomedicoApplication.java. Using fallback presentation compiler.
+2026.09.07 16:40:36 WARN  no build target for: C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\ConsultoriomedicoApplication.java
+set. 07, 2026 4:40:36 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 211
+2026.09.07 16:40:36 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\ConsultoriomedicoApplication.java. Using fallback presentation compiler.
+2026.09.07 16:40:38 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\ConsultoriomedicoApplication.java. Using fallback presentation compiler.
+2026.09.07 16:41:31 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\ConsultoriomedicoApplication.java. Using fallback presentation compiler.
+set. 07, 2026 4:41:47 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.09.07 16:43:09 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\ConsultoriomedicoApplication.java. Using fallback presentation compiler.
+2026.09.07 16:43:09 WARN  no build target for: C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\ConsultoriomedicoApplication.java
+set. 07, 2026 4:43:09 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 219
+2026.09.07 16:43:09 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\ConsultoriomedicoApplication.java. Using fallback presentation compiler.
+2026.09.07 16:43:10 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\ConsultoriomedicoApplication.java. Using fallback presentation compiler.
+2026.09.07 16:43:26 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\ConsultoriomedicoApplication.java. Using fallback presentation compiler.
+2026.09.07 16:43:26 WARN  no build target for: C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\ConsultoriomedicoApplication.java
+set. 07, 2026 4:43:26 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 225
+2026.09.07 16:43:26 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\ConsultoriomedicoApplication.java. Using fallback presentation compiler.
+set. 07, 2026 4:44:31 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.09.07 16:45:16 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Model\MovimientoInventario.java. Using fallback presentation compiler.
+2026.09.07 16:45:17 WARN  no build target for: C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Model\MovimientoInventario.java
+2026.09.07 16:45:17 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Model\MovimientoInventario.java. Using fallback presentation compiler.
+2026.09.07 16:45:42 INFO  Shutting down server
+2026.09.07 16:45:42 INFO  Memory monitor stopped
+2026.09.07 16:45:42 INFO  shutting down Metals
+2026.09.07 16:47:25 INFO  Started: Metals version 1.6.7+41-335bd931-SNAPSHOT in folders 'C:\Users\Antony\Documents\Proyecto_FM' for client Visual Studio Code 1.136.1.
+2026.09.07 16:47:31 INFO  Memory monitor started
+2026.09.07 16:47:47 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.09.07 16:47:52 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Model\MovimientoInventario.java. Using fallback presentation compiler.
+2026.09.07 16:47:52 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Model\MovimientoInventario.java. Using fallback presentation compiler.
+2026.09.07 16:47:52 INFO  Attempting to connect to the build server...
+2026.09.07 16:47:52 INFO  Found a Bloop server running
+2026.09.07 16:47:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Antony\Documents\Proyecto_FM\.metals\bsp.trace.json or C:\Users\Antony\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.09.07 16:48:15 ERROR Timeout waiting for 'build/initialize' response
+2026.09.07 16:48:15 WARN  Retrying connection to the build server Bloop
+2026.09.07 16:48:15 INFO  Found a Bloop server running
+2026.09.07 16:48:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Antony\Documents\Proyecto_FM\.metals\bsp.trace.json or C:\Users\Antony\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.09.07 16:48:36 ERROR Timeout waiting for 'build/initialize' response
+2026.09.07 16:48:36 WARN  Retrying connection to the build server Bloop
+2026.09.07 16:48:36 INFO  Found a Bloop server running
+2026.09.07 16:48:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Antony\Documents\Proyecto_FM\.metals\bsp.trace.json or C:\Users\Antony\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.09.07 16:48:47 INFO  time: Connected to build server in 54s
+2026.09.07 16:48:47 INFO  Connected to Build server: Bloop v2.1.1
+2026.09.07 16:48:50 INFO  time: Imported build in 1.85s
+2026.09.07 16:51:17 INFO  Started: Metals version 1.6.7+41-335bd931-SNAPSHOT in folders 'C:\Users\Antony\Documents\Proyecto_FM' for client Visual Studio Code 1.136.1.
+2026.09.07 16:51:17 INFO  time: initialize in 0.29s
+2026.09.07 16:51:24 INFO  Memory monitor started
+2026.09.07 16:51:43 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.09.07 16:51:45 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Model\MovimientoInventario.java. Using fallback presentation compiler.
+2026.09.07 16:51:46 INFO  Attempting to connect to the build server...
+2026.09.07 16:51:46 INFO  Found a Bloop server running
+2026.09.07 16:51:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Antony\Documents\Proyecto_FM\.metals\bsp.trace.json or C:\Users\Antony\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.09.07 16:51:52 INFO  time: Connected to build server in 5.71s
+2026.09.07 16:51:52 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Model\MovimientoInventario.java. Using fallback presentation compiler.
+2026.09.07 16:51:52 INFO  Connected to Build server: Bloop v2.1.1
+2026.09.07 16:51:53 INFO  time: Imported build in 0.9s
+2026.09.07 16:52:37 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.09.07 16:52:50 INFO  time: indexed workspace in 56s
+2026.09.07 16:52:56 INFO  compiling consultoriomedico (40 java sources)
+2026.09.07 16:53:12 WARN  Unexpected javac output: Note: Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Exception\Globalexceptionhandler.java:35: error: class GlobalExceptionHandler is public, should be declared in a file named GlobalExceptionHandler.java
+public class GlobalExceptionHandler {
+       ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\LoteMateriaPrimaController.java:69: error: cannot find symbol
+        existente.setCodigoLote(lote.getCodigoLote());
+                                    ^
+  symbol:   method getCodigoLote()
+  location: variable lote of type @jakarta.validation.Valid LoteMateriaPrima
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\LoteMateriaPrimaController.java:70: error: cannot find symbol
+        existente.setFechaIngreso(lote.getFechaIngreso());
+                                      ^
+  symbol:   method getFechaIngreso()
+  location: variable lote of type @jakarta.validation.Valid LoteMateriaPrima
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\LoteMateriaPrimaController.java:71: error: cannot find symbol
+        existente.setFechaVencimiento(lote.getFechaVencimiento());
+                                          ^
+  symbol:   method getFechaVencimiento()
+  location: variable lote of type @jakarta.validation.Valid LoteMateriaPrima
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\LoteMateriaPrimaController.java:72: error: cannot find symbol
+        existente.setCantidadInicial(lote.getCantidadInicial());
+                                         ^
+  symbol:   method getCantidadInicial()
+  location: variable lote of type @jakarta.validation.Valid LoteMateriaPrima
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\LoteMateriaPrimaController.java:73: error: cannot find symbol
+        existente.setCantidadActual(lote.getCantidadActual());
+                                        ^
+  symbol:   method getCantidadActual()
+  location: variable lote of type @jakarta.validation.Valid LoteMateriaPrima
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\LoteMateriaPrimaController.java:74: error: cannot find symbol
+        existente.setCostoUnitario(lote.getCostoUnitario());
+                                       ^
+  symbol:   method getCostoUnitario()
+  location: variable lote of type @jakarta.validation.Valid LoteMateriaPrima
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\MateriaPrimaController.java:76: error: cannot find symbol
+        existente.setNombre(materiaPrima.getNombre());
+                                        ^
+  symbol:   method getNombre()
+  location: variable materiaPrima of type @jakarta.validation.Valid MateriaPrima
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\MateriaPrimaController.java:77: error: cannot find symbol
+        existente.setTipo(materiaPrima.getTipo());
+                                      ^
+  symbol:   method getTipo()
+  location: variable materiaPrima of type @jakarta.validation.Valid MateriaPrima
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\MateriaPrimaController.java:78: error: cannot find symbol
+        existente.setUnidadMedida(materiaPrima.getUnidadMedida());
+                                              ^
+  symbol:   method getUnidadMedida()
+  location: variable materiaPrima of type @jakarta.validation.Valid MateriaPrima
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\MateriaPrimaController.java:79: error: cannot find symbol
+        existente.setStockMinimo(materiaPrima.getStockMinimo());
+                                             ^
+  symbol:   method getStockMinimo()
+  location: variable materiaPrima of type @jakarta.validation.Valid MateriaPrima
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\MateriaPrimaController.java:80: error: cannot find symbol
+        existente.setProveedor(materiaPrima.getProveedor());
+                                           ^
+  symbol:   method getProveedor()
+  location: variable materiaPrima of type @jakarta.validation.Valid MateriaPrima
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\MateriaPrimaService.java:49: error: cannot find symbol
+            materiaPrima.setActivo(false);
+                        ^
+  symbol:   method setActivo(boolean)
+  location: variable materiaPrima of type MateriaPrima
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\MovimientoInventarioService.java:56: error: cannot find symbol
+        LoteMateriaPrima lote = loteRepository.findById(movimiento.getLote().getIdLote())
+                                                                  ^
+  symbol:   method getLote()
+  location: variable movimiento of type MovimientoInventario
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\MovimientoInventarioService.java:59: error: cannot find symbol
+        BigDecimal cantidad = movimiento.getCantidad();
+                                        ^
+  symbol:   method getCantidad()
+  location: variable movimiento of type MovimientoInventario
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\MovimientoInventarioService.java:61: error: cannot find symbol
+        if ("SALIDA".equalsIgnoreCase(movimiento.getTipoMovimiento())) {
+                                                ^
+  symbol:   method getTipoMovimiento()
+  location: variable movimiento of type MovimientoInventario
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\MovimientoInventarioService.java:62: error: cannot find symbol
+            if (lote.getCantidadActual().compareTo(cantidad) < 0) {
+                    ^
+  symbol:   method getCantidadActual()
+  location: variable lote of type LoteMateriaPrima
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\MovimientoInventarioService.java:63: error: cannot find symbol
+                throw new IllegalStateException("Stock insuficiente en el lote " + lote.getCodigoLote());
+                                                                                       ^
+  symbol:   method getCodigoLote()
+  location: variable lote of type LoteMateriaPrima
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\MovimientoInventarioService.java:65: error: cannot find symbol
+            lote.setCantidadActual(lote.getCantidadActual().subtract(cantidad));
+                                       ^
+  symbol:   method getCantidadActual()
+  location: variable lote of type LoteMateriaPrima
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\MovimientoInventarioService.java:66: error: cannot find symbol
+        } else if ("ENTRADA".equalsIgnoreCase(movimiento.getTipoMovimiento())) {
+                                                        ^
+  symbol:   method getTipoMovimiento()
+  location: variable movimiento of type MovimientoInventario
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\MovimientoInventarioService.java:67: error: cannot find symbol
+            lote.setCantidadActual(lote.getCantidadActual().add(cantidad));
+                                       ^
+  symbol:   method getCantidadActual()
+  location: variable lote of type LoteMateriaPrima
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\MovimientoInventarioService.java:74: error: cannot find symbol
+        movimiento.setLote(lote);
+                  ^
+  symbol:   method setLote(LoteMateriaPrima)
+  location: variable movimiento of type MovimientoInventario
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\MovimientoInventarioService.java:75: error: cannot find symbol
+        movimiento.setFecha(LocalDateTime.now());
+                  ^
+  symbol:   method setFecha(LocalDateTime)
+  location: variable movimiento of type MovimientoInventario
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\PacienteController.java:102: error: cannot find symbol
+existente.setTipoDocumento(paciente.getTipoDocumento());
+                                   ^
+  symbol:   method getTipoDocumento()
+  location: variable paciente of type Paciente
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\PacienteController.java:103: error: cannot find symbol
+existente.setNumDocumento(paciente.getNumDocumento());
+                                  ^
+  symbol:   method getNumDocumento()
+  location: variable paciente of type Paciente
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\PacienteController.java:104: error: cannot find symbol
+existente.setNombres(paciente.getNombres());
+                             ^
+  symbol:   method getNombres()
+  location: variable paciente of type Paciente
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\PacienteController.java:105: error: cannot find symbol
+existente.setApellidos(paciente.getApellidos());
+                               ^
+  symbol:   method getApellidos()
+  location: variable paciente of type Paciente
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\PacienteController.java:106: error: cannot find symbol
+existente.setTelefono(paciente.getTelefono());
+                              ^
+  symbol:   method getTelefono()
+  location: variable paciente of type Paciente
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\PacienteController.java:107: error: cannot find symbol
+existente.setEmail(paciente.getEmail());
+                           ^
+  symbol:   method getEmail()
+  location: variable paciente of type Paciente
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\ProveedorController.java:72: error: cannot find symbol
+        existente.setNombre(proveedor.getNombre());
+                                     ^
+  symbol:   method getNombre()
+  location: variable proveedor of type @jakarta.validation.Valid Proveedor
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\ProveedorController.java:73: error: cannot find symbol
+        existente.setRuc(proveedor.getRuc());
+                                  ^
+  symbol:   method getRuc()
+  location: variable proveedor of type @jakarta.validation.Valid Proveedor
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\ProveedorController.java:74: error: cannot find symbol
+        existente.setTelefono(proveedor.getTelefono());
+                                       ^
+  symbol:   method getTelefono()
+  location: variable proveedor of type @jakarta.validation.Valid Proveedor
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\ProveedorController.java:75: error: cannot find symbol
+        existente.setEmail(proveedor.getEmail());
+                                    ^
+  symbol:   method getEmail()
+  location: variable proveedor of type @jakarta.validation.Valid Proveedor
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\ProveedorController.java:76: error: cannot find symbol
+        existente.setDireccion(proveedor.getDireccion());
+                                        ^
+  symbol:   method getDireccion()
+  location: variable proveedor of type @jakarta.validation.Valid Proveedor
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\ProveedorService.java:38: error: cannot find symbol
+        if (proveedor.getActivo() == null) {
+                     ^
+  symbol:   method getActivo()
+  location: variable proveedor of type Proveedor
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\ProveedorService.java:39: error: cannot find symbol
+            proveedor.setActivo(true);
+                     ^
+  symbol:   method setActivo(boolean)
+  location: variable proveedor of type Proveedor
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\ProveedorService.java:52: error: cannot find symbol
+            proveedor.setActivo(false);
+                     ^
+  symbol:   method setActivo(boolean)
+  location: variable proveedor of type Proveedor
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\UnidadMedidaController.java:48: error: cannot find symbol
+        existente.setNombre(unidad.getNombre());
+                                  ^
+  symbol:   method getNombre()
+  location: variable unidad of type @jakarta.validation.Valid UnidadMedida
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\UnidadMedidaController.java:49: error: cannot find symbol
+        existente.setAbreviatura(unidad.getAbreviatura());
+                                       ^
+  symbol:   method getAbreviatura()
+  location: variable unidad of type @jakarta.validation.Valid UnidadMedida
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\VentaService.java:44: error: cannot find symbol
+        venta.setFechaVenta(LocalDateTime.now());
+             ^
+  symbol:   method setFechaVenta(LocalDateTime)
+  location: variable venta of type Venta
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\VentaService.java:45: error: cannot find symbol
+        if (venta.getEstado() == null) {
+                 ^
+  symbol:   method getEstado()
+  location: variable venta of type Venta
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\VentaService.java:46: error: cannot find symbol
+            venta.setEstado("EMITIDA");
+                 ^
+  symbol:   method setEstado(String)
+  location: variable venta of type Venta
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\VentaService.java:57: error: cannot find symbol
+        venta.setEstado("ANULADA");
+             ^
+  symbol:   method setEstado(String)
+  location: variable venta of type Venta
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\VentaDetalleService.java:37: error: cannot find symbol
+        detalle.setSubtotal(detalle.getCantidad().multiply(detalle.getPrecioUnitario()));
+                                   ^
+  symbol:   method getCantidad()
+  location: variable detalle of type VentaDetalle
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\VentaDetalleService.java:37: error: cannot find symbol
+        detalle.setSubtotal(detalle.getCantidad().multiply(detalle.getPrecioUnitario()));
+                                                                  ^
+  symbol:   method getPrecioUnitario()
+  location: variable detalle of type VentaDetalle
+45 errors.
+2026.09.07 16:53:12 INFO  Note: Annotation processing is enabled because one or more processors were found
+2026.09.07 16:53:12 INFO  [0.062s][warning][cds] The shared archive file was created by a different version or build of HotSpot
+2026.09.07 16:53:12 WARN  javac exited with exit code 1
+2026.09.07 16:53:12 INFO  time: compiled consultoriomedico in 15s
+2026.09.07 17:04:58 INFO  Shutting down server
+2026.09.07 17:04:58 INFO  Memory monitor stopped
+2026.09.07 17:04:58 INFO  shutting down Metals
+2026.09.07 17:04:59 INFO  Shut down connection with build server.
+2026.09.07 17:04:59 INFO  Exiting server
+2026.09.08 01:13:41 INFO  Started: Metals version 1.6.7+41-335bd931-SNAPSHOT in folders 'C:\Users\Antony\Documents\Proyecto_FM' for client Visual Studio Code 1.136.1.
+2026.09.08 01:13:43 INFO  Memory monitor started
+2026.09.08 01:13:55 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.09.08 01:13:59 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Model\MovimientoInventario.java. Using fallback presentation compiler.
+2026.09.08 01:14:03 INFO  Attempting to connect to the build server...
+2026.09.08 01:14:03 INFO  Found a Bloop server running
+2026.09.08 01:14:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Antony\Documents\Proyecto_FM\.metals\bsp.trace.json or C:\Users\Antony\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.09.08 01:14:10 INFO  time: Connected to build server in 6.89s
+2026.09.08 01:14:10 INFO  Connected to Build server: Bloop v2.1.1
+2026.09.08 01:14:11 INFO  time: Imported build in 0.54s
+2026.09.08 01:15:02 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.09.08 01:15:26 INFO  time: indexed workspace in 1m14s
+2026.09.08 01:15:29 INFO  compiling consultoriomedico (82 java sources)
+2026.09.08 01:15:57 WARN  Unexpected javac output: Note: Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Exception\Globalexceptionhandler.java:35: error: class GlobalExceptionHandler is public, should be declared in a file named GlobalExceptionHandler.java
+public class GlobalExceptionHandler {
+       ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\UsuarioService.java:6: error: package org.springframework.security.crypto.bcrypt does not exist
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+                                                 ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\UsuarioService.java:15: error: cannot find symbol
+    private final BCryptPasswordEncoder encoder;
+                  ^
+  symbol:   class BCryptPasswordEncoder
+  location: class UsuarioService
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\UsuarioService.java:20: error: cannot find symbol
+            BCryptPasswordEncoder encoder
+            ^
+  symbol:   class BCryptPasswordEncoder
+  location: class UsuarioService
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\WebController\VentaWebController.java:12: error: package org.springframework.security.core does not exist
+import org.springframework.security.core.Authentication;
+                                        ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\WebController\VentaWebController.java:62: error: cannot find symbol
+                           Authentication authentication,
+                           ^
+  symbol:   class Authentication
+  location: class VentaWebController
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\CustomUserDetailsService.java:6: error: package org.springframework.security.core.authority does not exist
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
+                                                  ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\CustomUserDetailsService.java:7: error: package org.springframework.security.core.userdetails does not exist
+import org.springframework.security.core.userdetails.User;
+                                                    ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\CustomUserDetailsService.java:8: error: package org.springframework.security.core.userdetails does not exist
+import org.springframework.security.core.userdetails.UserDetails;
+                                                    ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\CustomUserDetailsService.java:9: error: package org.springframework.security.core.userdetails does not exist
+import org.springframework.security.core.userdetails.UserDetailsService;
+                                                    ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\CustomUserDetailsService.java:10: error: package org.springframework.security.core.userdetails does not exist
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
+                                                    ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\CustomUserDetailsService.java:28: error: cannot find symbol
+public class CustomUserDetailsService implements UserDetailsService {
+                                                 ^
+  symbol: class UserDetailsService
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\CustomUserDetailsService.java:37: error: cannot find symbol
+    public UserDetails loadUserByUsername(String email) throws UsernameNotFoundException {
+           ^
+  symbol:   class UserDetails
+  location: class CustomUserDetailsService
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\CustomUserDetailsService.java:37: error: cannot find symbol
+    public UserDetails loadUserByUsername(String email) throws UsernameNotFoundException {
+                                                               ^
+  symbol:   class UsernameNotFoundException
+  location: class CustomUserDetailsService
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:5: error: package org.springframework.security.config.annotation.web.builders does not exist
+import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+                                                                  ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:6: error: package org.springframework.security.web does not exist
+import org.springframework.security.web.SecurityFilterChain;
+                                       ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:7: error: package org.springframework.security.crypto.bcrypt does not exist
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+                                                 ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:25: error: cannot find symbol
+    public BCryptPasswordEncoder passwordEncoder() {
+           ^
+  symbol:   class BCryptPasswordEncoder
+  location: class SecurityConfig
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:30: error: cannot find symbol
+    public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
+                                                   ^
+  symbol:   class HttpSecurity
+  location: class SecurityConfig
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:30: error: cannot find symbol
+    public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
+           ^
+  symbol:   class SecurityFilterChain
+  location: class SecurityConfig
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\CategoriaFormulaController.java:94: error: cannot find symbol
+        existente.setNombre(categoria.getNombre());
+                                     ^
+  symbol:   method getNombre()
+  location: variable categoria of type CategoriaFormula
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\CitaMedicaService.java:59: error: cannot find symbol
+            existente.setFechaHora(cita.getFechaHora());
+                                       ^
+  symbol:   method getFechaHora()
+  location: variable cita of type CitaMedica
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\CitaMedicaService.java:60: error: cannot find symbol
+            existente.setMotivo(cita.getMotivo());
+                                    ^
+  symbol:   method getMotivo()
+  location: variable cita of type CitaMedica
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\CitaMedicaService.java:61: error: cannot find symbol
+            existente.setEstado(cita.getEstado());
+                                    ^
+  symbol:   method getEstado()
+  location: variable cita of type CitaMedica
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\CitaMedicaService.java:62: error: cannot find symbol
+            existente.setPaciente(cita.getPaciente());
+                                      ^
+  symbol:   method getPaciente()
+  location: variable cita of type CitaMedica
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\FormulaIngredienteController.java:55: error: cannot find symbol
+        id.setIdFormula(idFormula);
+          ^
+  symbol:   method setIdFormula(Integer)
+  location: variable id of type FormulaIngredienteId
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\FormulaIngredienteController.java:56: error: cannot find symbol
+        id.setIdMateriaPrima(idMateriaPrima);
+          ^
+  symbol:   method setIdMateriaPrima(Integer)
+  location: variable id of type FormulaIngredienteId
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\FormulaIngredienteController.java:72: error: cannot find symbol
+        id.setIdFormula(idFormula);
+          ^
+  symbol:   method setIdFormula(Integer)
+  location: variable id of type FormulaIngredienteId
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\FormulaIngredienteController.java:73: error: cannot find symbol
+        id.setIdMateriaPrima(idMateriaPrima);
+          ^
+  symbol:   method setIdMateriaPrima(Integer)
+  location: variable id of type FormulaIngredienteId
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\LoteMateriaPrimaController.java:69: error: cannot find symbol
+        existente.setCodigoLote(lote.getCodigoLote());
+                                    ^
+  symbol:   method getCodigoLote()
+  location: variable lote of type @jakarta.validation.Valid LoteMateriaPrima
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\LoteMateriaPrimaController.java:70: error: cannot find symbol
+        existente.setFechaIngreso(lote.getFechaIngreso());
+                                      ^
+  symbol:   method getFechaIngreso()
+  location: variable lote of type @jakarta.validation.Valid LoteMateriaPrima
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\LoteMateriaPrimaController.java:71: error: cannot find symbol
+        existente.setFechaVencimiento(lote.getFechaVencimiento());
+                                          ^
+  symbol:   method getFechaVencimiento()
+  location: variable lote of type @jakarta.validation.Valid LoteMateriaPrima
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\LoteMateriaPrimaController.java:72: error: cannot find symbol
+        existente.setCantidadInicial(lote.getCantidadInicial());
+                                         ^
+  symbol:   method getCantidadInicial()
+  location: variable lote of type @jakarta.validation.Valid LoteMateriaPrima
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\LoteMateriaPrimaController.java:73: error: cannot find symbol
+        existente.setCantidadActual(lote.getCantidadActual());
+                                        ^
+  symbol:   method getCantidadActual()
+  location: variable lote of type @jakarta.validation.Valid LoteMateriaPrima
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\LoteMateriaPrimaController.java:74: error: cannot find symbol
+        existente.setCostoUnitario(lote.getCostoUnitario());
+                                       ^
+  symbol:   method getCostoUnitario()
+  location: variable lote of type @jakarta.validation.Valid LoteMateriaPrima
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\MateriaPrimaController.java:76: error: cannot find symbol
+        existente.setNombre(materiaPrima.getNombre());
+                                        ^
+  symbol:   method getNombre()
+  location: variable materiaPrima of type @jakarta.validation.Valid MateriaPrima
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\MateriaPrimaController.java:77: error: cannot find symbol
+        existente.setTipo(materiaPrima.getTipo());
+                                      ^
+  symbol:   method getTipo()
+  location: variable materiaPrima of type @jakarta.validation.Valid MateriaPrima
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\MateriaPrimaController.java:78: error: cannot find symbol
+        existente.setUnidadMedida(materiaPrima.getUnidadMedida());
+                                              ^
+  symbol:   method getUnidadMedida()
+  location: variable materiaPrima of type @jakarta.validation.Valid MateriaPrima
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\MateriaPrimaController.java:79: error: cannot find symbol
+        existente.setStockMinimo(materiaPrima.getStockMinimo());
+                                             ^
+  symbol:   method getStockMinimo()
+  location: variable materiaPrima of type @jakarta.validation.Valid MateriaPrima
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\MateriaPrimaController.java:80: error: cannot find symbol
+        existente.setProveedor(materiaPrima.getProveedor());
+                                           ^
+  symbol:   method getProveedor()
+  location: variable materiaPrima of type @jakarta.validation.Valid MateriaPrima
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\MateriaPrimaService.java:49: error: cannot find symbol
+            materiaPrima.setActivo(false);
+                        ^
+  symbol:   method setActivo(boolean)
+  location: variable materiaPrima of type MateriaPrima
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\MovimientoInventarioService.java:56: error: cannot find symbol
+        LoteMateriaPrima lote = loteRepository.findById(movimiento.getLote().getIdLote())
+                                                                  ^
+  symbol:   method getLote()
+  location: variable movimiento of type MovimientoInventario
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\MovimientoInventarioService.java:59: error: cannot find symbol
+        BigDecimal cantidad = movimiento.getCantidad();
+                                        ^
+  symbol:   method getCantidad()
+  location: variable movimiento of type MovimientoInventario
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\MovimientoInventarioService.java:61: error: cannot find symbol
+        if ("SALIDA".equalsIgnoreCase(movimiento.getTipoMovimiento())) {
+                                                ^
+  symbol:   method getTipoMovimiento()
+  location: variable movimiento of type MovimientoInventario
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\MovimientoInventarioService.java:62: error: cannot find symbol
+            if (lote.getCantidadActual().compareTo(cantidad) < 0) {
+                    ^
+  symbol:   method getCantidadActual()
+  location: variable lote of type LoteMateriaPrima
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\MovimientoInventarioService.java:63: error: cannot find symbol
+                throw new IllegalStateException("Stock insuficiente en el lote " + lote.getCodigoLote());
+                                                                                       ^
+  symbol:   method getCodigoLote()
+  location: variable lote of type LoteMateriaPrima
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\MovimientoInventarioService.java:65: error: cannot find symbol
+            lote.setCantidadActual(lote.getCantidadActual().subtract(cantidad));
+                                       ^
+  symbol:   method getCantidadActual()
+  location: variable lote of type LoteMateriaPrima
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\MovimientoInventarioService.java:66: error: cannot find symbol
+        } else if ("ENTRADA".equalsIgnoreCase(movimiento.getTipoMovimiento())) {
+                                                        ^
+  symbol:   method getTipoMovimiento()
+  location: variable movimiento of type MovimientoInventario
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\MovimientoInventarioService.java:67: error: cannot find symbol
+            lote.setCantidadActual(lote.getCantidadActual().add(cantidad));
+                                       ^
+  symbol:   method getCantidadActual()
+  location: variable lote of type LoteMateriaPrima
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\MovimientoInventarioService.java:74: error: cannot find symbol
+        movimiento.setLote(lote);
+                  ^
+  symbol:   method setLote(LoteMateriaPrima)
+  location: variable movimiento of type MovimientoInventario
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\MovimientoInventarioService.java:75: error: cannot find symbol
+        movimiento.setFecha(LocalDateTime.now());
+                  ^
+  symbol:   method setFecha(LocalDateTime)
+  location: variable movimiento of type MovimientoInventario
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\PacienteController.java:102: error: cannot find symbol
+existente.setTipoDocumento(paciente.getTipoDocumento());
+                                   ^
+  symbol:   method getTipoDocumento()
+  location: variable paciente of type Paciente
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\PacienteController.java:103: error: cannot find symbol
+existente.setNumDocumento(paciente.getNumDocumento());
+                                  ^
+  symbol:   method getNumDocumento()
+  location: variable paciente of type Paciente
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\PacienteController.java:104: error: cannot find symbol
+existente.setNombres(paciente.getNombres());
+                             ^
+  symbol:   method getNombres()
+  location: variable paciente of type Paciente
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\PacienteController.java:105: error: cannot find symbol
+existente.setApellidos(paciente.getApellidos());
+                               ^
+  symbol:   method getApellidos()
+  location: variable paciente of type Paciente
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\PacienteController.java:106: error: cannot find symbol
+existente.setTelefono(paciente.getTelefono());
+                              ^
+  symbol:   method getTelefono()
+  location: variable paciente of type Paciente
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\PacienteController.java:107: error: cannot find symbol
+existente.setEmail(paciente.getEmail());
+                           ^
+  symbol:   method getEmail()
+  location: variable paciente of type Paciente
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\ProveedorController.java:72: error: cannot find symbol
+        existente.setNombre(proveedor.getNombre());
+                                     ^
+  symbol:   method getNombre()
+  location: variable proveedor of type @jakarta.validation.Valid Proveedor
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\ProveedorController.java:73: error: cannot find symbol
+        existente.setRuc(proveedor.getRuc());
+                                  ^
+  symbol:   method getRuc()
+  location: variable proveedor of type @jakarta.validation.Valid Proveedor
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\ProveedorController.java:74: error: cannot find symbol
+        existente.setTelefono(proveedor.getTelefono());
+                                       ^
+  symbol:   method getTelefono()
+  location: variable proveedor of type @jakarta.validation.Valid Proveedor
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\ProveedorController.java:75: error: cannot find symbol
+        existente.setEmail(proveedor.getEmail());
+                                    ^
+  symbol:   method getEmail()
+  location: variable proveedor of type @jakarta.validation.Valid Proveedor
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\ProveedorController.java:76: error: cannot find symbol
+        existente.setDireccion(proveedor.getDireccion());
+                                        ^
+  symbol:   method getDireccion()
+  location: variable proveedor of type @jakarta.validation.Valid Proveedor
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\ProveedorService.java:38: error: cannot find symbol
+        if (proveedor.getActivo() == null) {
+                     ^
+  symbol:   method getActivo()
+  location: variable proveedor of type Proveedor
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\ProveedorService.java:39: error: cannot find symbol
+            proveedor.setActivo(true);
+                     ^
+  symbol:   method setActivo(boolean)
+  location: variable proveedor of type Proveedor
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\ProveedorService.java:52: error: cannot find symbol
+            proveedor.setActivo(false);
+                     ^
+  symbol:   method setActivo(boolean)
+  location: variable proveedor of type Proveedor
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\RecetaController.java:88: error: cannot find symbol
+        existente.setMedico(receta.getMedico());
+                                  ^
+  symbol:   method getMedico()
+  location: variable receta of type Receta
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\RecetaController.java:89: error: cannot find symbol
+        existente.setNumColegiatura(receta.getNumColegiatura());
+                                          ^
+  symbol:   method getNumColegiatura()
+  location: variable receta of type Receta
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\RecetaController.java:90: error: cannot find symbol
+        existente.setFechaEmision(receta.getFechaEmision());
+                                        ^
+  symbol:   method getFechaEmision()
+  location: variable receta of type Receta
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\RecetaController.java:91: error: cannot find symbol
+        existente.setArchivoAdjunto(receta.getArchivoAdjunto());
+                                          ^
+  symbol:   method getArchivoAdjunto()
+  location: variable receta of type Receta
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\RecetaController.java:92: error: cannot find symbol
+        existente.setPaciente(receta.getPaciente());
+                                    ^
+  symbol:   method getPaciente()
+  location: variable receta of type Receta
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\UnidadMedidaController.java:48: error: cannot find symbol
+        existente.setNombre(unidad.getNombre());
+                                  ^
+  symbol:   method getNombre()
+  location: variable unidad of type @jakarta.validation.Valid UnidadMedida
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Controller\UnidadMedidaController.java:49: error: cannot find symbol
+        existente.setAbreviatura(unidad.getAbreviatura());
+                                       ^
+  symbol:   method getAbreviatura()
+  location: variable unidad of type @jakarta.validation.Valid UnidadMedida
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\UsuarioService.java:37: error: cannot find symbol
+                encoder.encode(usuario.getPasswordHash())
+                                      ^
+  symbol:   method getPasswordHash()
+  location: variable usuario of type Usuario
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\VentaService.java:44: error: cannot find symbol
+        venta.setFechaVenta(LocalDateTime.now());
+             ^
+  symbol:   method setFechaVenta(LocalDateTime)
+  location: variable venta of type Venta
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\VentaService.java:45: error: cannot find symbol
+        if (venta.getEstado() == null) {
+                 ^
+  symbol:   method getEstado()
+  location: variable venta of type Venta
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\VentaService.java:46: error: cannot find symbol
+            venta.setEstado("EMITIDA");
+                 ^
+  symbol:   method setEstado(String)
+  location: variable venta of type Venta
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\VentaService.java:57: error: cannot find symbol
+        venta.setEstado("ANULADA");
+             ^
+  symbol:   method setEstado(String)
+  location: variable venta of type Venta
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\VentaDetalleService.java:37: error: cannot find symbol
+        detalle.setSubtotal(detalle.getCantidad().multiply(detalle.getPrecioUnitario()));
+                                   ^
+  symbol:   method getCantidad()
+  location: variable detalle of type VentaDetalle
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\VentaDetalleService.java:37: error: cannot find symbol
+        detalle.setSubtotal(detalle.getCantidad().multiply(detalle.getPrecioUnitario()));
+                                                                  ^
+  symbol:   method getPrecioUnitario()
+  location: variable detalle of type VentaDetalle
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\WebController\CitaWebController.java:56: error: cannot find symbol
+        cita.setPaciente(paciente);
+            ^
+  symbol:   method setPaciente(Paciente)
+  location: variable cita of type CitaMedica
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\WebController\CitaWebController.java:57: error: cannot find symbol
+        cita.setFechaHora(fechaHora);
+            ^
+  symbol:   method setFechaHora(LocalDateTime)
+  location: variable cita of type CitaMedica
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\WebController\CitaWebController.java:58: error: cannot find symbol
+        cita.setMotivo(motivo);
+            ^
+  symbol:   method setMotivo(String)
+  location: variable cita of type CitaMedica
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\WebController\CitaWebController.java:59: error: cannot find symbol
+        cita.setEstado(estado);
+            ^
+  symbol:   method setEstado(String)
+  location: variable cita of type CitaMedica
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\WebController\CitaWebController.java:75: error: cannot find symbol
+        m.put("id", c.getIdCita());
+                     ^
+  symbol:   method getIdCita()
+  location: variable c of type CitaMedica
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\WebController\CitaWebController.java:76: error: cannot find symbol
+        m.put("paciente", c.getPaciente() != null ? c.getPaciente().getNombres() + " " + c.getPaciente().getApellidos() : "�");
+                           ^
+  symbol:   method getPaciente()
+  location: variable c of type CitaMedica
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\WebController\CitaWebController.java:76: error: cannot find symbol
+        m.put("paciente", c.getPaciente() != null ? c.getPaciente().getNombres() + " " + c.getPaciente().getApellidos() : "�");
+                                                     ^
+  symbol:   method getPaciente()
+  location: variable c of type CitaMedica
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\WebController\CitaWebController.java:76: error: cannot find symbol
+        m.put("paciente", c.getPaciente() != null ? c.getPaciente().getNombres() + " " + c.getPaciente().getApellidos() : "�");
+                                                                                          ^
+  symbol:   method getPaciente()
+  location: variable c of type CitaMedica
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\WebController\CitaWebController.java:77: error: cannot find symbol
+        m.put("fecha_hora", c.getFechaHora());
+                             ^
+  symbol:   method getFechaHora()
+  location: variable c of type CitaMedica
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\WebController\CitaWebController.java:78: error: cannot find symbol
+        m.put("motivo", c.getMotivo());
+                         ^
+  symbol:   method getMotivo()
+  location: variable c of type CitaMedica
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\WebController\CitaWebController.java:79: error: cannot find symbol
+        m.put("estado", c.getEstado());
+                         ^
+  symbol:   method getEstado()
+  location: variable c of type CitaMedica
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\WebController\ClienteWebController.java:31: error: cannot find symbol
+                        || (p.getNombres() + " " + p.getApellidos()).toLowerCase().contains(q.toLowerCase())
+                             ^
+  symbol:   method getNombres()
+  location: variable p of type Paciente
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\WebController\ClienteWebController.java:31: error: cannot find symbol
+                        || (p.getNombres() + " " + p.getApellidos()).toLowerCase().contains(q.toLowerCase())
+                                                    ^
+  symbol:   method getApellidos()
+  location: variable p of type Paciente
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\WebController\ClienteWebController.java:32: error: cannot find symbol
+                        || p.getNumDocumento().contains(q))
+                            ^
+  symbol:   method getNumDocumento()
+  location: variable p of type Paciente
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\WebController\ClienteWebController.java:76: error: cannot find symbol
+        paciente.setTipoDocumento(tipo_documento);
+                ^
+  symbol:   method setTipoDocumento(String)
+  location: variable paciente of type Paciente
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\WebController\ClienteWebController.java:77: error: cannot find symbol
+        paciente.setNumDocumento(num_documento);
+                ^
+  symbol:   method setNumDocumento(String)
+  location: variable paciente of type Paciente
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\WebController\ClienteWebController.java:78: error: cannot find symbol
+        paciente.setNombres(nombres);
+                ^
+  symbol:   method setNombres(String)
+  location: variable paciente of type Paciente
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\WebController\ClienteWebController.java:79: error: cannot find symbol
+        paciente.setApellidos(apellidos);
+                ^
+  symbol:   method setApellidos(String)
+  location: variable paciente of type Paciente
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\WebController\ClienteWebController.java:80: error: cannot find symbol
+        paciente.setTelefono(telefono);
+                ^
+  symbol:   method setTelefono(String)
+  location: variable paciente of type Paciente
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\WebController\ClienteWebController.java:81: error: cannot find symbol
+        paciente.setEmail(email);
+                ^
+  symbol:   method setEmail(String)
+  location: variable paciente of type Paciente
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\WebController\ClienteWebController.java:97: error: cannot find symbol
+        m.put("id", p.getIdPaciente());
+                     ^
+  symbol:   method getIdPaciente()
+  location: variable p of type Paciente
+100 errors
+only showing the first 100 errors, of 204 total; use -Xmaxerrs if you would like to see more.
+2026.09.08 01:15:57 INFO  Note: Annotation processing is enabled because one or more processors were found
+2026.09.08 01:15:57 INFO  [0.148s][warning][cds] The shared archive file was created by a different version or build of HotSpot
+2026.09.08 01:15:57 WARN  javac exited with exit code 1
+2026.09.08 01:15:57 INFO  time: compiled consultoriomedico in 28s
+set. 08, 2026 1:16:51 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21
+set. 08, 2026 1:16:53 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 23

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" th:replace="~{layout/main :: layout('Órdenes', 'ordenes/list')}">
+<body>
+<main th:fragment="content">
+    <div class="alert alert-warning small mb-3">
+        <i class="bi bi-info-circle"></i> Esta pantalla muestra datos de ejemplo. El módulo de <strong>Preparación</strong>
+        (tabla <code>orden_preparacion</code>) todavía no tiene backend (Model/Repository/Service/Controller) implementado
+        por el equipo — conéctala aquí cuando esté listo.
+    </div>
+    <h4 class="mb-4">Órdenes de Preparación</h4>
+    <div class="card border-0 shadow-sm">
+        <div class="card-body">
+            <div th:if="${#lists.isEmpty(ordenes)}" class="text-center py-5 text-muted">
+                <i class="bi bi-clipboard2-pulse display-4"></i>
+                <p class="mt-2">No hay órdenes registradas.</p>
+            </div>
+            <div th:unless="${#lists.isEmpty(ordenes)}" class="table-responsive">
+                <table class="table table-hover align-middle">
+                    <thead>
+                        <tr><th>ID</th><th>N° Orden</th><th>Fórmula</th><th>Receta</th><th>Cliente</th><th>Estado</th><th class="text-end">Acciones</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr th:each="o : ${ordenes}">
+                            <td th:text="${o.id}"></td>
+                            <td th:text="${o.num_orden}"></td>
+                            <td th:text="${o.formula}"></td>
+                            <td th:text="${o.receta}"></td>
+                            <td th:text="${o.cliente}"></td>
+                            <td>
+                                <span th:switch="${o.estado}">
+                                    <span th:case="'PENDIENTE'" class="badge badge-estado-pendiente">PENDIENTE</span>
+                                    <span th:case="'EN_PREPARACION'" class="badge badge-estado-en_preparacion">EN PREPARACIÓN</span>
+                                    <span th:case="'LISTA'" class="badge badge-estado-lista">LISTA</span>
+                                    <span th:case="'ENTREGADA'" class="badge badge-estado-entregada">ENTREGADA</span>
+                                </span>
+                            </td>
+                            <td class="text-end">
+                                <form th:if="${o.estado == 'PENDIENTE'}" th:action="@{/app/ordenes/cambiar-estado/{id}/{estado}(id=${o.id}, estado='EN_PREPARACION')}" method="post" class="d-inline">
+                                    <button type="submit" class="btn btn-sm btn-primary">Iniciar</button>
+                                </form>
+                                <form th:if="${o.estado == 'EN_PREPARACION'}" th:action="@{/app/ordenes/cambiar-estado/{id}/{estado}(id=${o.id}, estado='LISTA')}" method="post" class="d-inline">
+                                    <button type="submit" class="btn btn-sm btn-success">Finalizar</button>
+                                </form>
+                                <form th:if="${o.estado == 'LISTA'}" th:action="@{/app/ordenes/cambiar-estado/{id}/{estado}(id=${o.id}, estado='ENTREGADA')}" method="post" class="d-inline">
+                                    <button type="submit" class="btn btn-sm btn-secondary">Entregar</button>
+                                </form>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</main>
+<th:block th:fragment="scripts"></th:block>
+</body>
+</html>
