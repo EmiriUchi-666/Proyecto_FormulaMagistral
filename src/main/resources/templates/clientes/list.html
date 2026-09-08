@@ -31,7 +31,7 @@
                                 <a th:href="@{/app/clientes/editar/{id}(id=${c.id})}" class="btn btn-sm btn-light">
                                     <i class="bi bi-pencil"></i>
                                 </a>
-                                <button th:onclick="'confirmarEliminar(\'/app/clientes/eliminar/' + ${c.id} + '\', \'' + ${c.nombres} + '\')'" class="btn btn-sm btn-light text-danger">
+                                <button th:data-url="@{/app/clientes/eliminar/{id}(id=${c.id})}" th:data-nombre="${c.nombres}" onclick="confirmarEliminar(this.dataset.url, this.dataset.nombre)" class="btn btn-sm btn-light text-danger">
                                     <i class="bi bi-trash"></i>
                                 </button>
                             </td>

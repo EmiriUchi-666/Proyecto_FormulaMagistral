@@ -6,7 +6,6 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
-<<<<<<< HEAD
 /**
  * Seguridad combinada del proyecto:
  *
@@ -27,23 +26,10 @@ public class SecurityConfig {
         return new BCryptPasswordEncoder();
     }
 
-=======
-@Configuration
-public class SecurityConfig {
-
-
-    @Bean
-    public BCryptPasswordEncoder passwordEncoder(){
-        return new BCryptPasswordEncoder();
-    }
-
-
->>>>>>> 4aa01638f118a77226d52029b8c22d2f96991c71
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
 
         http
-<<<<<<< HEAD
           .csrf(csrf -> csrf.ignoringRequestMatchers(
               // La API REST no usa formularios HTML, así que no necesita token CSRF.
               "/proveedores/**", "/unidades-medida/**", "/materias-primas/**",
@@ -77,18 +63,9 @@ public class SecurityConfig {
               .logoutUrl("/app/logout")
               .logoutSuccessUrl("/app/login?logout")
               .permitAll()
-=======
-          .csrf(csrf -> csrf.disable())
-          .authorizeHttpRequests(auth -> auth
-              .anyRequest().permitAll()
->>>>>>> 4aa01638f118a77226d52029b8c22d2f96991c71
           );
 
         return http.build();
     }
 
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 4aa01638f118a77226d52029b8c22d2f96991c71

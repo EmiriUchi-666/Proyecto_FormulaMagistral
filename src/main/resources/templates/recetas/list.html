@@ -26,7 +26,7 @@
                             <td th:text="${r.medico}"></td>
                             <td th:text="${r.fecha_emision}"></td>
                             <td class="text-end">
-                                <button th:onclick="'confirmarEliminar(\'/app/recetas/eliminar/' + ${r.id} + '\', \'' + ${r.cliente} + '\')'" class="btn btn-sm btn-light text-danger">
+                                <button th:data-url="@{/app/recetas/eliminar/{id}(id=${r.id})}" th:data-nombre="${r.cliente}" onclick="confirmarEliminar(this.dataset.url, this.dataset.nombre)" class="btn btn-sm btn-light text-danger">
                                     <i class="bi bi-trash"></i>
                                 </button>
                             </td>
