@@ -14284,3 +14284,7 @@ only showing the first 100 errors, of 204 total; use -Xmaxerrs if you would like
 2026.09.08 01:15:57 INFO  [0.148s][warning][cds] The shared archive file was created by a different version or build of HotSpot
 2026.09.08 01:15:57 WARN  javac exited with exit code 1
 2026.09.08 01:15:57 INFO  time: compiled consultoriomedico in 28s
+set. 08, 2026 1:16:51 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21
+set. 08, 2026 1:16:53 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 23

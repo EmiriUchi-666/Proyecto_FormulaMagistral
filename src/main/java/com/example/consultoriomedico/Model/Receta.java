@@ -24,6 +24,7 @@ public class Receta {
     private Paciente paciente;
 
 
+<<<<<<< HEAD
     /**
      * Se agregó porque el equipo alteró la tabla "receta" con
      * ALTER TABLE receta ADD COLUMN id_cita ... (06/09/2026) pero
@@ -35,6 +36,8 @@ public class Receta {
     private CitaMedica citaMedica;
 
 
+=======
+>>>>>>> 4aa01638f118a77226d52029b8c22d2f96991c71
     private String medico;
 
 
