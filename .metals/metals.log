@@ -14288,3 +14288,939 @@ set. 08, 2026 1:16:51 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCanc
 WARNING: Unmatched cancel notification for request id 21
 set. 08, 2026 1:16:53 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
 WARNING: Unmatched cancel notification for request id 23
+2026.09.08 01:18:25 INFO  QDox parse error in file:///C:/Users/Antony/Documents/Proyecto_FM/src/main/java/com/example/consultoriomedico/Repository/UsuarioRepository.java (full report at: "C:\Users\Antony\Documents\Proyecto_FM\.metals\.reports\metals-full\2026-09-08\r_qdox-error_(consultoriomedico)_01-18-25-675.md")
+2026.09.08 01:18:25 INFO  QDox parse error in file:///C:/Users/Antony/Documents/Proyecto_FM/src/main/java/com/example/consultoriomedico/Service/UsuarioService.java (full report at: "C:\Users\Antony\Documents\Proyecto_FM\.metals\.reports\metals-full\2026-09-08\r_qdox-error_(consultoriomedico)_01-18-25-792.md")
+2026.09.08 01:18:26 INFO  Created report: Optional[file:///C:/Users/Antony/Documents/Proyecto_FM/src/main/java/com/example/consultoriomedico/Service/UsuarioService.java]
+2026.09.08 01:18:26 INFO  Created report: Optional[file:///C:/Users/Antony/Documents/Proyecto_FM/src/main/java/com/example/consultoriomedico/Repository/UsuarioRepository.java]
+2026.09.08 01:18:25 INFO  QDox parse error in file:///C:/Users/Antony/Documents/Proyecto_FM/src/main/java/com/example/consultoriomedico/config/SecurityConfig.java (full report at: "C:\Users\Antony\Documents\Proyecto_FM\.metals\.reports\metals-full\2026-09-08\r_qdox-error_(consultoriomedico)_01-18-25-947.md")
+2026.09.08 01:18:26 INFO  QDox parse error in file:///C:/Users/Antony/Documents/Proyecto_FM/src/main/java/com/example/consultoriomedico/Model/Receta.java (full report at: "C:\Users\Antony\Documents\Proyecto_FM\.metals\.reports\metals-full\2026-09-08\r_qdox-error_(consultoriomedico)_01-18-25-676.md")
+2026.09.08 01:18:26 INFO  Created report: Optional[file:///C:/Users/Antony/Documents/Proyecto_FM/src/main/java/com/example/consultoriomedico/config/SecurityConfig.java]
+2026.09.08 01:18:26 INFO  Created report: Optional[file:///C:/Users/Antony/Documents/Proyecto_FM/src/main/java/com/example/consultoriomedico/Model/Receta.java]
+2026.09.08 01:18:26 INFO  QDox parse error in file:///C:/Users/Antony/Documents/Proyecto_FM/src/main/java/com/example/consultoriomedico/Model/Receta.java (full report at: "C:\Users\Antony\Documents\Proyecto_FM\.metals\.reports\metals-full\2026-09-08\r_qdox-error_(consultoriomedico)_01-18-25-676.md")
+2026.09.08 01:18:26 INFO  QDox parse error in file:///C:/Users/Antony/Documents/Proyecto_FM/src/main/java/com/example/consultoriomedico/Repository/UsuarioRepository.java (full report at: "C:\Users\Antony\Documents\Proyecto_FM\.metals\.reports\metals-full\2026-09-08\r_qdox-error_(consultoriomedico)_01-18-25-675.md")
+2026.09.08 01:18:26 INFO  QDox parse error in file:///C:/Users/Antony/Documents/Proyecto_FM/src/main/java/com/example/consultoriomedico/Service/UsuarioService.java (full report at: "C:\Users\Antony\Documents\Proyecto_FM\.metals\.reports\metals-full\2026-09-08\r_qdox-error_(consultoriomedico)_01-18-25-792.md")
+2026.09.08 01:18:26 INFO  QDox parse error in file:///C:/Users/Antony/Documents/Proyecto_FM/src/main/java/com/example/consultoriomedico/config/SecurityConfig.java (full report at: "C:\Users\Antony\Documents\Proyecto_FM\.metals\.reports\metals-full\2026-09-08\r_qdox-error_(consultoriomedico)_01-18-25-947.md")
+2026.09.08 01:18:29 INFO  compiling consultoriomedico (82 java sources)
+2026.09.08 01:18:38 WARN  Unexpected javac output: Note: Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Model\Receta.java:27: error: illegal start of type
+<<<<<<< HEAD
+^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Model\Receta.java:27: error: > expected
+<<<<<<< HEAD
+            ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Model\Receta.java:36: error: illegal start of type
+    private CitaMedica citaMedica;
+    ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Model\Receta.java:39: error: illegal start of type
+=======
+^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Model\Receta.java:40: error: <identifier> expected
+>>>>>>> 4aa01638f118a77226d52029b8c22d2f96991c71
+                                                ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Repository\UsuarioRepository.java:10: error: illegal start of type
+<<<<<<< HEAD
+^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Repository\UsuarioRepository.java:10: error: > expected
+<<<<<<< HEAD
+            ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Repository\UsuarioRepository.java:14: error: illegal start of type
+=======
+^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Repository\UsuarioRepository.java:15: error: <identifier> expected
+>>>>>>> 4aa01638f118a77226d52029b8c22d2f96991c71
+                                                ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Repository\UsuarioRepository.java:16: error: = expected
+}
+^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\UsuarioService.java:52: error: illegal start of type
+<<<<<<< HEAD
+^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\UsuarioService.java:52: error: > expected
+<<<<<<< HEAD
+            ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\UsuarioService.java:54: error: illegal start of type
+    public Usuario buscarPorEmail(String email){
+    ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\UsuarioService.java:60: error: illegal start of type
+=======
+^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\UsuarioService.java:61: error: <identifier> expected
+>>>>>>> 4aa01638f118a77226d52029b8c22d2f96991c71
+                                                ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:9: error: class, interface, enum, or record expected
+<<<<<<< HEAD
+^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:30: error: illegal start of type
+=======
+^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:41: error: illegal start of type
+>>>>>>> 4aa01638f118a77226d52029b8c22d2f96991c71
+^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:42: error: illegal start of type
+    @Bean
+    ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:42: error: <identifier> expected
+    @Bean
+         ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:46: error: illegal start of expression
+<<<<<<< HEAD
+  ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:46: error: illegal start of expression
+<<<<<<< HEAD
+    ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:47: error: > or ',' expected
+          .csrf(csrf -> csrf.ignoringRequestMatchers(
+               ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:47: error: not a statement
+          .csrf(csrf -> csrf.ignoringRequestMatchers(
+                ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:54: error: ';' expected
+          ))
+           ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:80: error: illegal start of expression
+=======
+  ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:80: error: illegal start of expression
+=======
+    ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:80: error: illegal start of expression
+=======
+      ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:81: error: illegal start of expression
+          .csrf(csrf -> csrf.disable())
+          ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:84: error: illegal start of expression
+>>>>>>> 4aa01638f118a77226d52029b8c22d2f96991c71
+   ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:84: error: illegal start of expression
+>>>>>>> 4aa01638f118a77226d52029b8c22d2f96991c71
+      ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:84: error: ')' or ',' expected
+>>>>>>> 4aa01638f118a77226d52029b8c22d2f96991c71
+         ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:84: error: ';' expected
+>>>>>>> 4aa01638f118a77226d52029b8c22d2f96991c71
+                                                ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:90: error: illegal start of type
+<<<<<<< HEAD
+^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:90: error: > expected
+<<<<<<< HEAD
+            ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:91: error: illegal start of type
+}
+^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:92: error: illegal start of type
+=======
+^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:94: error: class, interface, enum, or record expected
+>>>>>>> 4aa01638f118a77226d52029b8c22d2f96991c71
+^
+38 errors.
+2026.09.08 01:18:38 INFO  Note: Annotation processing is enabled because one or more processors were found
+2026.09.08 01:18:38 INFO  [0.080s][warning][cds] The shared archive file was created by a different version or build of HotSpot
+2026.09.08 01:18:38 WARN  javac exited with exit code 1
+2026.09.08 01:18:38 INFO  time: compiled consultoriomedico in 9.44s
+2026.09.08 01:18:39 INFO  compiling consultoriomedico (82 java sources)
+2026.09.08 01:18:47 WARN  Unexpected javac output: Note: Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Model\Receta.java:27: error: illegal start of type
+<<<<<<< HEAD
+^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Model\Receta.java:27: error: > expected
+<<<<<<< HEAD
+            ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Model\Receta.java:36: error: illegal start of type
+    private CitaMedica citaMedica;
+    ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Model\Receta.java:39: error: illegal start of type
+=======
+^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Model\Receta.java:40: error: <identifier> expected
+>>>>>>> 4aa01638f118a77226d52029b8c22d2f96991c71
+                                                ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Repository\UsuarioRepository.java:10: error: illegal start of type
+<<<<<<< HEAD
+^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Repository\UsuarioRepository.java:10: error: > expected
+<<<<<<< HEAD
+            ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Repository\UsuarioRepository.java:14: error: illegal start of type
+=======
+^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Repository\UsuarioRepository.java:15: error: <identifier> expected
+>>>>>>> 4aa01638f118a77226d52029b8c22d2f96991c71
+                                                ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Repository\UsuarioRepository.java:16: error: = expected
+}
+^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\UsuarioService.java:52: error: illegal start of type
+<<<<<<< HEAD
+^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\UsuarioService.java:52: error: > expected
+<<<<<<< HEAD
+            ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\UsuarioService.java:54: error: illegal start of type
+    public Usuario buscarPorEmail(String email){
+    ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\UsuarioService.java:60: error: illegal start of type
+=======
+^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\UsuarioService.java:61: error: <identifier> expected
+>>>>>>> 4aa01638f118a77226d52029b8c22d2f96991c71
+                                                ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:9: error: class, interface, enum, or record expected
+<<<<<<< HEAD
+^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:30: error: illegal start of type
+=======
+^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:41: error: illegal start of type
+>>>>>>> 4aa01638f118a77226d52029b8c22d2f96991c71
+^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:42: error: illegal start of type
+    @Bean
+    ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:42: error: <identifier> expected
+    @Bean
+         ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:46: error: illegal start of expression
+<<<<<<< HEAD
+  ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:46: error: illegal start of expression
+<<<<<<< HEAD
+    ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:47: error: > or ',' expected
+          .csrf(csrf -> csrf.ignoringRequestMatchers(
+               ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:47: error: not a statement
+          .csrf(csrf -> csrf.ignoringRequestMatchers(
+                ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:54: error: ';' expected
+          ))
+           ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:80: error: illegal start of expression
+=======
+  ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:80: error: illegal start of expression
+=======
+    ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:80: error: illegal start of expression
+=======
+      ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:81: error: illegal start of expression
+          .csrf(csrf -> csrf.disable())
+          ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:84: error: illegal start of expression
+>>>>>>> 4aa01638f118a77226d52029b8c22d2f96991c71
+   ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:84: error: illegal start of expression
+>>>>>>> 4aa01638f118a77226d52029b8c22d2f96991c71
+      ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:84: error: ')' or ',' expected
+>>>>>>> 4aa01638f118a77226d52029b8c22d2f96991c71
+         ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:84: error: ';' expected
+>>>>>>> 4aa01638f118a77226d52029b8c22d2f96991c71
+                                                ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:90: error: illegal start of type
+<<<<<<< HEAD
+^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:90: error: > expected
+<<<<<<< HEAD
+            ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:91: error: illegal start of type
+}
+^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:92: error: illegal start of type
+=======
+^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:94: error: class, interface, enum, or record expected
+>>>>>>> 4aa01638f118a77226d52029b8c22d2f96991c71
+^
+38 errors.
+2026.09.08 01:18:47 INFO  Note: Annotation processing is enabled because one or more processors were found
+2026.09.08 01:18:47 INFO  [0.049s][warning][cds] The shared archive file was created by a different version or build of HotSpot
+2026.09.08 01:18:47 WARN  javac exited with exit code 1
+2026.09.08 01:18:47 INFO  time: compiled consultoriomedico in 7.77s
+set. 08, 2026 1:19:42 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 44
+set. 08, 2026 1:19:50 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 40
+set. 08, 2026 1:19:50 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 46
+set. 08, 2026 1:19:51 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 48
+set. 08, 2026 1:19:51 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 50
+set. 08, 2026 1:25:13 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 75
+set. 08, 2026 1:25:13 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 79
+set. 08, 2026 1:25:25 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 83
+2026.09.08 01:25:28 INFO  Created report: Optional[file:///C:/Users/Antony/Documents/Proyecto_FM/src/main/java/com/example/consultoriomedico/Repository/UsuarioRepository.java]
+2026.09.08 01:25:28 INFO  empty definition using pc, found symbol in pc:  (full report at: "C:\Users\Antony\Documents\Proyecto_FM\.metals\.reports\metals-full\2026-09-08\r_empty-definition_(consultoriomedico)_01-25-28-303.md")
+set. 08, 2026 1:25:34 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 89
+set. 08, 2026 1:25:35 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 93
+set. 08, 2026 1:25:35 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 92
+set. 08, 2026 1:25:37 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 97
+set. 08, 2026 1:25:37 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 98
+set. 08, 2026 1:25:37 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 95
+set. 08, 2026 1:25:37 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 94
+2026.09.08 01:25:43 INFO  QDox parse error in file:///C:/Users/Antony/Documents/Proyecto_FM/src/main/java/com/example/consultoriomedico/Repository/UsuarioRepository.java (full report at: "C:\Users\Antony\Documents\Proyecto_FM\.metals\.reports\metals-full\2026-09-08\r_qdox-error_(consultoriomedico)_01-18-25-675.md")
+2026.09.08 01:25:43 INFO  QDox parse error in file:///C:/Users/Antony/Documents/Proyecto_FM/src/main/java/com/example/consultoriomedico/Repository/UsuarioRepository.java (full report at: "C:\Users\Antony\Documents\Proyecto_FM\.metals\.reports\metals-full\2026-09-08\r_qdox-error_(consultoriomedico)_01-18-25-675.md")
+set. 08, 2026 1:25:45 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 103
+set. 08, 2026 1:25:45 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 104
+set. 08, 2026 1:25:48 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 87
+set. 08, 2026 1:25:59 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 108
+set. 08, 2026 1:26:09 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 114
+set. 08, 2026 1:26:09 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 113
+set. 08, 2026 1:26:19 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 118
+set. 08, 2026 1:26:19 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 121
+set. 08, 2026 1:26:19 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 122
+set. 08, 2026 1:26:19 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 124
+set. 08, 2026 1:26:19 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 125
+2026.09.08 01:26:22 INFO  QDox parse error in file:///C:/Users/Antony/Documents/Proyecto_FM/src/main/java/com/example/consultoriomedico/Model/Receta.java (full report at: "C:\Users\Antony\Documents\Proyecto_FM\.metals\.reports\metals-full\2026-09-08\r_qdox-error_(consultoriomedico)_01-18-25-676.md")
+2026.09.08 01:26:22 INFO  QDox parse error in file:///C:/Users/Antony/Documents/Proyecto_FM/src/main/java/com/example/consultoriomedico/Model/Receta.java (full report at: "C:\Users\Antony\Documents\Proyecto_FM\.metals\.reports\metals-full\2026-09-08\r_qdox-error_(consultoriomedico)_01-18-25-676.md")
+2026.09.08 01:26:22 INFO  QDox parse error in file:///C:/Users/Antony/Documents/Proyecto_FM/src/main/java/com/example/consultoriomedico/Model/Receta.java (full report at: "C:\Users\Antony\Documents\Proyecto_FM\.metals\.reports\metals-full\2026-09-08\r_qdox-error_(consultoriomedico)_01-18-25-676.md")
+set. 08, 2026 1:26:22 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 117
+set. 08, 2026 1:26:22 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 116
+set. 08, 2026 1:26:22 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 126
+set. 08, 2026 1:26:22 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 129
+set. 08, 2026 1:26:22 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 131
+set. 08, 2026 1:26:22 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 128
+2026.09.08 01:26:35 INFO  QDox parse error in file:///C:/Users/Antony/Documents/Proyecto_FM/src/main/java/com/example/consultoriomedico/Model/Receta.java (full report at: "C:\Users\Antony\Documents\Proyecto_FM\.metals\.reports\metals-full\2026-09-08\r_qdox-error_(consultoriomedico)_01-18-25-676.md")
+2026.09.08 01:26:35 INFO  QDox parse error in file:///C:/Users/Antony/Documents/Proyecto_FM/src/main/java/com/example/consultoriomedico/Model/Receta.java (full report at: "C:\Users\Antony\Documents\Proyecto_FM\.metals\.reports\metals-full\2026-09-08\r_qdox-error_(consultoriomedico)_01-18-25-676.md")
+2026.09.08 01:26:35 INFO  QDox parse error in file:///C:/Users/Antony/Documents/Proyecto_FM/src/main/java/com/example/consultoriomedico/Model/Receta.java (full report at: "C:\Users\Antony\Documents\Proyecto_FM\.metals\.reports\metals-full\2026-09-08\r_qdox-error_(consultoriomedico)_01-18-25-676.md")
+set. 08, 2026 1:27:15 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 145
+set. 08, 2026 1:27:16 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 146
+set. 08, 2026 1:27:16 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 147
+set. 08, 2026 1:27:17 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 158
+set. 08, 2026 1:27:23 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 164
+set. 08, 2026 1:27:23 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 166
+set. 08, 2026 1:27:24 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 169
+set. 08, 2026 1:27:25 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 167
+set. 08, 2026 1:27:30 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 177
+set. 08, 2026 1:27:45 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 184
+2026.09.08 01:28:24 ERROR Bloop 'bsp' command exited with code 1. Something may be wrong with the current configuration.
+Running the [1mclean[0m sub-command to clear the working directory and remove caches might help.
+If the error persists, please report the issue as a bug and attach a log with increased verbosity by passing [1m-v -v -v[0m.
+set. 08, 2026 1:29:05 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 186
+2026.09.08 01:29:05 WARN  High memory usage detected: 100% (2048 MB / 2048 MB)
+2026.09.08 01:29:06 INFO  Found a Bloop server running
+2026.09.08 01:29:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Antony\Documents\Proyecto_FM\.metals\bsp.trace.json or C:\Users\Antony\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.09.08 01:30:11 ERROR Bloop 'bsp' command exited with code 1. Something may be wrong with the current configuration.
+Running the [1mclean[0m sub-command to clear the working directory and remove caches might help.
+If the error persists, please report the issue as a bug and attach a log with increased verbosity by passing [1m-v -v -v[0m.
+2026.09.08 01:30:11 ERROR Timeout waiting for 'build/initialize' response
+set. 08, 2026 1:30:11 A. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Exception in thread "pool-1-thread-79" java.lang.OutOfMemoryError: Java heap space
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor$.findComments$1(JavaFoldingRangeExtractor.scala:149)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor$.findComments(JavaFoldingRangeExtractor.scala:160)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor$.extract(JavaFoldingRangeExtractor.scala:180)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:52)
+	at scala.meta.internal.parsing.FoldingRangeProvider$$Lambda/0x00000000177ab0e8.apply(Unknown Source)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:48)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$foldingRange$3(MetalsLspService.scala:1264)
+	at scala.meta.internal.metals.MetalsLspService$$Lambda/0x00000000177aaa48.apply(Unknown Source)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:691)
+	at scala.concurrent.Future$$$Lambda/0x0000000017114d90.apply(Unknown Source)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:500)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.runWith(Thread.java:1529)
+	at java.base/java.lang.Thread.run(Thread.java:1516)
+2026.09.08 10:38:42 INFO  Started: Metals version 1.6.7+41-335bd931-SNAPSHOT in folders 'C:\Users\Antony\Documents\Proyecto_FM' for client Visual Studio Code 1.136.1.
+2026.09.08 10:38:42 INFO  time: initialize in 0.11s
+2026.09.08 10:39:19 INFO  Memory monitor started
+2026.09.08 10:39:33 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.09.08 10:39:36 INFO  Attempting to connect to the build server...
+2026.09.08 10:39:36 INFO  No running Bloop server found, starting one.
+2026.09.08 10:39:46 WARN  Could not check if the deprecated bloop server is still running
+java.util.concurrent.TimeoutException: Future timed out after [10 seconds]
+	at scala.concurrent.Future$.timeoutError(Future.scala:581)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryAwait0(Promise.scala:258)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:271)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:208)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:62)
+	at scala.concurrent.Await$.result(package.scala:125)
+	at scala.meta.internal.builds.ShellRunner$.runSync(ShellRunner.scala:166)
+	at scala.meta.internal.metals.BloopServers.$anonfun$checkOldBloopRunning$1(BloopServers.scala:268)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.BloopServers.checkOldBloopRunning(BloopServers.scala:266)
+	at scala.meta.internal.metals.BloopServers.connect(BloopServers.scala:401)
+	at scala.meta.internal.metals.BloopServers.$anonfun$newServer$1(BloopServers.scala:104)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:631)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:700)
+	at scala.meta.internal.metals.BloopServers.newServer(BloopServers.scala:96)
+	at scala.meta.internal.bsp.BspConnector.connect$1(BspConnector.scala:137)
+	at scala.meta.internal.bsp.BspConnector.connect(BspConnector.scala:260)
+	at scala.meta.internal.metals.ConnectionProvider$Connect$.$anonfun$createSession$7(ConnectionProvider.scala:586)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:503)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.lang.Thread.run(Thread.java:1516)
+
+2026.09.08 10:40:07 INFO  Starting compilation server
+2026.09.08 10:40:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Antony\Documents\Proyecto_FM\.metals\bsp.trace.json or C:\Users\Antony\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.09.08 10:40:34 ERROR Timeout waiting for 'build/initialize' response
+2026.09.08 10:40:34 WARN  Retrying connection to the build server Bloop
+2026.09.08 10:40:34 INFO  Found a Bloop server running
+2026.09.08 10:40:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Antony\Documents\Proyecto_FM\.metals\bsp.trace.json or C:\Users\Antony\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.09.08 10:40:40 INFO  time: Connected to build server in 1m4s
+2026.09.08 10:40:40 INFO  Connected to Build server: Bloop v2.1.1
+2026.09.08 10:40:42 INFO  time: Imported build in 1.04s
+2026.09.08 10:40:57 INFO  QDox parse error in file:///C:/Users/Antony/Documents/Proyecto_FM/src/main/java/com/example/consultoriomedico/config/SecurityConfig.java (full report at: "C:\Users\Antony\Documents\Proyecto_FM\.metals\.reports\metals-full\2026-09-08\r_qdox-error_(consultoriomedico)_01-18-25-947.md")
+2026.09.08 10:40:57 INFO  Created report: Optional[file:///C:/Users/Antony/Documents/Proyecto_FM/src/main/java/com/example/consultoriomedico/Repository/UsuarioRepository.java]
+2026.09.08 10:40:57 INFO  QDox parse error in file:///C:/Users/Antony/Documents/Proyecto_FM/src/main/java/com/example/consultoriomedico/Repository/UsuarioRepository.java (full report at: "C:\Users\Antony\Documents\Proyecto_FM\.metals\.reports\metals-full\2026-09-07\r_qdox-error_(consultoriomedico)_10-40-57-474.md")
+2026.09.08 10:40:57 INFO  QDox parse error in file:///C:/Users/Antony/Documents/Proyecto_FM/src/main/java/com/example/consultoriomedico/Service/UsuarioService.java (full report at: "C:\Users\Antony\Documents\Proyecto_FM\.metals\.reports\metals-full\2026-09-08\r_qdox-error_(consultoriomedico)_01-18-25-792.md")
+2026.09.08 10:40:57 INFO  QDox parse error in file:///C:/Users/Antony/Documents/Proyecto_FM/src/main/java/com/example/consultoriomedico/Model/Receta.java (full report at: "C:\Users\Antony\Documents\Proyecto_FM\.metals\.reports\metals-full\2026-09-08\r_qdox-error_(consultoriomedico)_01-18-25-676.md")
+2026.09.08 10:41:10 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.09.08 10:41:18 INFO  time: indexed workspace in 36s
+2026.09.08 10:41:21 INFO  compiling consultoriomedico (82 java sources)
+2026.09.08 10:41:27 WARN  Unexpected javac output: Note: Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Model\Receta.java:27: error: illegal start of type
+<<<<<<< HEAD
+^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Model\Receta.java:27: error: > expected
+<<<<<<< HEAD
+            ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Model\Receta.java:36: error: illegal start of type
+    private CitaMedica citaMedica;
+    ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Model\Receta.java:39: error: illegal start of type
+=======
+^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Model\Receta.java:40: error: <identifier> expected
+>>>>>>> 4aa01638f118a77226d52029b8c22d2f96991c71
+                                                ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Repository\UsuarioRepository.java:10: error: illegal start of type
+<<<<<<< HEAD
+^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Repository\UsuarioRepository.java:10: error: > expected
+<<<<<<< HEAD
+            ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Repository\UsuarioRepository.java:14: error: illegal start of type
+=======
+^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Repository\UsuarioRepository.java:15: error: <identifier> expected
+>>>>>>> 4aa01638f118a77226d52029b8c22d2f96991c71
+                                                ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Repository\UsuarioRepository.java:16: error: = expected
+}
+^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\UsuarioService.java:52: error: illegal start of type
+<<<<<<< HEAD
+^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\UsuarioService.java:52: error: > expected
+<<<<<<< HEAD
+            ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\UsuarioService.java:54: error: illegal start of type
+    public Usuario buscarPorEmail(String email){
+    ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\UsuarioService.java:60: error: illegal start of type
+=======
+^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\UsuarioService.java:61: error: <identifier> expected
+>>>>>>> 4aa01638f118a77226d52029b8c22d2f96991c71
+                                                ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:9: error: class, interface, enum, or record expected
+<<<<<<< HEAD
+^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:30: error: illegal start of type
+=======
+^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:41: error: illegal start of type
+>>>>>>> 4aa01638f118a77226d52029b8c22d2f96991c71
+^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:42: error: illegal start of type
+    @Bean
+    ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:42: error: <identifier> expected
+    @Bean
+         ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:46: error: illegal start of expression
+<<<<<<< HEAD
+  ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:46: error: illegal start of expression
+<<<<<<< HEAD
+    ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:47: error: > or ',' expected
+          .csrf(csrf -> csrf.ignoringRequestMatchers(
+               ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:47: error: not a statement
+          .csrf(csrf -> csrf.ignoringRequestMatchers(
+                ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:54: error: ';' expected
+          ))
+           ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:80: error: illegal start of expression
+=======
+  ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:80: error: illegal start of expression
+=======
+    ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:80: error: illegal start of expression
+=======
+      ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:81: error: illegal start of expression
+          .csrf(csrf -> csrf.disable())
+          ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:84: error: illegal start of expression
+>>>>>>> 4aa01638f118a77226d52029b8c22d2f96991c71
+   ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:84: error: illegal start of expression
+>>>>>>> 4aa01638f118a77226d52029b8c22d2f96991c71
+      ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:84: error: ')' or ',' expected
+>>>>>>> 4aa01638f118a77226d52029b8c22d2f96991c71
+         ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:84: error: ';' expected
+>>>>>>> 4aa01638f118a77226d52029b8c22d2f96991c71
+                                                ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:90: error: illegal start of type
+<<<<<<< HEAD
+^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:90: error: > expected
+<<<<<<< HEAD
+            ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:91: error: illegal start of type
+}
+^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:92: error: illegal start of type
+=======
+^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:94: error: class, interface, enum, or record expected
+>>>>>>> 4aa01638f118a77226d52029b8c22d2f96991c71
+^
+38 errors.
+2026.09.08 10:41:27 INFO  Note: Annotation processing is enabled because one or more processors were found
+2026.09.08 10:41:27 INFO  [0.020s][warning][cds] The shared archive file was created by a different version or build of HotSpot
+2026.09.08 10:41:27 WARN  javac exited with exit code 1
+2026.09.08 10:41:27 INFO  time: compiled consultoriomedico in 6.32s
+2026.09.08 16:44:52 INFO  Started: Metals version 1.6.7+41-335bd931-SNAPSHOT in folders 'C:\Users\Antony\Documents\Proyecto_FM' for client Visual Studio Code 1.136.1.
+2026.09.08 16:44:53 INFO  time: initialize in 0.2s
+2026.09.08 16:45:23 INFO  Memory monitor started
+2026.09.08 16:45:29 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+set. 08, 2026 4:45:30 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+set. 08, 2026 4:45:30 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+2026.09.08 16:45:31 INFO  Attempting to connect to the build server...
+2026.09.08 16:45:31 INFO  No running Bloop server found, starting one.
+2026.09.08 16:45:37 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\ConsultoriomedicoApplication.java. Using fallback presentation compiler.
+2026.09.08 16:45:43 WARN  Could not check if the deprecated bloop server is still running
+java.util.concurrent.TimeoutException: Future timed out after [10 seconds]
+	at scala.concurrent.Future$.timeoutError(Future.scala:581)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryAwait0(Promise.scala:258)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:271)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:208)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:62)
+	at scala.concurrent.Await$.result(package.scala:125)
+	at scala.meta.internal.builds.ShellRunner$.runSync(ShellRunner.scala:166)
+	at scala.meta.internal.metals.BloopServers.$anonfun$checkOldBloopRunning$1(BloopServers.scala:268)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.BloopServers.checkOldBloopRunning(BloopServers.scala:266)
+	at scala.meta.internal.metals.BloopServers.connect(BloopServers.scala:401)
+	at scala.meta.internal.metals.BloopServers.$anonfun$newServer$1(BloopServers.scala:104)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:631)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:700)
+	at scala.meta.internal.metals.BloopServers.newServer(BloopServers.scala:96)
+	at scala.meta.internal.bsp.BspConnector.connect$1(BspConnector.scala:137)
+	at scala.meta.internal.bsp.BspConnector.connect(BspConnector.scala:260)
+	at scala.meta.internal.metals.ConnectionProvider$Connect$.$anonfun$createSession$7(ConnectionProvider.scala:586)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:503)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.lang.Thread.run(Thread.java:1516)
+
+2026.09.08 16:45:53 INFO  Starting compilation server
+set. 08, 2026 4:45:55 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+2026.09.08 16:45:55 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\UsuarioService.java. Using fallback presentation compiler.
+2026.09.08 16:45:56 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\UsuarioService.java. Using fallback presentation compiler.
+2026.09.08 16:45:57 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\UsuarioService.java. Using fallback presentation compiler.
+set. 08, 2026 4:45:57 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+2026.09.08 16:45:57 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\UsuarioService.java. Using fallback presentation compiler.
+2026.09.08 16:45:58 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\UsuarioService.java. Using fallback presentation compiler.
+2026.09.08 16:46:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Antony\Documents\Proyecto_FM\.metals\bsp.trace.json or C:\Users\Antony\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.09.08 16:46:17 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\UsuarioService.java. Using fallback presentation compiler.
+2026.09.08 16:46:17 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\UsuarioService.java. Using fallback presentation compiler.
+2026.09.08 16:46:19 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\UsuarioService.java. Using fallback presentation compiler.
+2026.09.08 16:46:24 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\UsuarioService.java. Using fallback presentation compiler.
+2026.09.08 16:46:26 ERROR Timeout waiting for 'build/initialize' response
+2026.09.08 16:46:26 WARN  Retrying connection to the build server Bloop
+2026.09.08 16:46:26 INFO  Found a Bloop server running
+2026.09.08 16:46:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Antony\Documents\Proyecto_FM\.metals\bsp.trace.json or C:\Users\Antony\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.09.08 16:46:26 INFO  time: Connected to build server in 55s
+2026.09.08 16:46:26 INFO  Connected to Build server: Bloop v2.1.1
+2026.09.08 16:46:28 INFO  time: Imported build in 1.16s
+set. 08, 2026 4:46:46 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 32
+2026.09.08 16:47:15 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.09.08 16:47:52 INFO  time: indexed workspace in 1m24s
+2026.09.08 16:48:07 INFO  compiling consultoriomedico (82 java sources)
+2026.09.08 16:48:41 WARN  Unexpected javac output: Note: Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\UsuarioService.java:6: error: package org.springframework.security.crypto.bcrypt does not exist
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+                                                 ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\UsuarioService.java:15: error: cannot find symbol
+    private final BCryptPasswordEncoder encoder;
+                  ^
+  symbol:   class BCryptPasswordEncoder
+  location: class UsuarioService
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\UsuarioService.java:20: error: cannot find symbol
+            BCryptPasswordEncoder encoder
+            ^
+  symbol:   class BCryptPasswordEncoder
+  location: class UsuarioService
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\WebController\VentaWebController.java:12: error: package org.springframework.security.core does not exist
+import org.springframework.security.core.Authentication;
+                                        ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\WebController\VentaWebController.java:62: error: cannot find symbol
+                           Authentication authentication,
+                           ^
+  symbol:   class Authentication
+  location: class VentaWebController
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\CustomUserDetailsService.java:6: error: package org.springframework.security.core.authority does not exist
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
+                                                  ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\CustomUserDetailsService.java:7: error: package org.springframework.security.core.userdetails does not exist
+import org.springframework.security.core.userdetails.User;
+                                                    ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\CustomUserDetailsService.java:8: error: package org.springframework.security.core.userdetails does not exist
+import org.springframework.security.core.userdetails.UserDetails;
+                                                    ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\CustomUserDetailsService.java:9: error: package org.springframework.security.core.userdetails does not exist
+import org.springframework.security.core.userdetails.UserDetailsService;
+                                                    ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\CustomUserDetailsService.java:10: error: package org.springframework.security.core.userdetails does not exist
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
+                                                    ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\CustomUserDetailsService.java:28: error: cannot find symbol
+public class CustomUserDetailsService implements UserDetailsService {
+                                                 ^
+  symbol: class UserDetailsService
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\CustomUserDetailsService.java:37: error: cannot find symbol
+    public UserDetails loadUserByUsername(String email) throws UsernameNotFoundException {
+           ^
+  symbol:   class UserDetails
+  location: class CustomUserDetailsService
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\CustomUserDetailsService.java:37: error: cannot find symbol
+    public UserDetails loadUserByUsername(String email) throws UsernameNotFoundException {
+                                                               ^
+  symbol:   class UsernameNotFoundException
+  location: class CustomUserDetailsService
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:5: error: package org.springframework.security.config.annotation.web.builders does not exist
+import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+                                                                  ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:6: error: package org.springframework.security.web does not exist
+import org.springframework.security.web.SecurityFilterChain;
+                                       ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:7: error: package org.springframework.security.crypto.bcrypt does not exist
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+                                                 ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:25: error: cannot find symbol
+    public BCryptPasswordEncoder passwordEncoder() {
+           ^
+  symbol:   class BCryptPasswordEncoder
+  location: class SecurityConfig
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:30: error: cannot find symbol
+    public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
+                                                   ^
+  symbol:   class HttpSecurity
+  location: class SecurityConfig
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:30: error: cannot find symbol
+    public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
+           ^
+  symbol:   class SecurityFilterChain
+  location: class SecurityConfig
+19 errors.
+2026.09.08 16:48:41 INFO  Note: Annotation processing is enabled because one or more processors were found
+2026.09.08 16:48:41 INFO  [0.063s][warning][cds] The shared archive file was created by a different version or build of HotSpot
+2026.09.08 16:48:41 WARN  javac exited with exit code 1
+2026.09.08 16:48:41 INFO  time: compiled consultoriomedico in 34s
+set. 08, 2026 4:50:56 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 189
+set. 08, 2026 4:50:56 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 190
+set. 08, 2026 4:50:56 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 194
+set. 08, 2026 4:51:13 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 213
+set. 08, 2026 4:51:13 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 212
+set. 08, 2026 4:51:13 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 215
+set. 08, 2026 4:51:25 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 217
+set. 08, 2026 4:51:28 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 220
+set. 08, 2026 4:51:31 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 223
+set. 08, 2026 4:51:31 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 226
+set. 08, 2026 4:51:31 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 227
+2026.09.08 16:53:00 ERROR Bloop 'bsp' command exited with code 1. Something may be wrong with the current configuration.
+Running the [1mclean[0m sub-command to clear the working directory and remove caches might help.
+If the error persists, please report the issue as a bug and attach a log with increased verbosity by passing [1m-v -v -v[0m.
+2026.09.08 16:53:00 ERROR Bloop 'bsp' command exited with code 1. Something may be wrong with the current configuration.
+Running the [1mclean[0m sub-command to clear the working directory and remove caches might help.
+If the error persists, please report the issue as a bug and attach a log with increased verbosity by passing [1m-v -v -v[0m.
+2026.09.08 16:53:00 WARN  High memory usage detected: 90% (1850 MB / 2048 MB)
+set. 08, 2026 4:52:59 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 237
+set. 08, 2026 4:53:01 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 238
+2026.09.08 16:53:01 INFO  Found a Bloop server running
+2026.09.08 16:53:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Antony\Documents\Proyecto_FM\.metals\bsp.trace.json or C:\Users\Antony\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.09.08 16:53:04 INFO  Connected to Build server: Bloop v2.1.1
+2026.09.08 16:53:09 INFO  time: Imported build in 1.89s
+set. 08, 2026 4:53:25 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 243
+2026.09.08 16:53:29 INFO  time: code lens generation in 3.02s
+set. 08, 2026 4:53:50 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 254
+set. 08, 2026 4:53:52 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 255
+set. 08, 2026 4:53:53 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 256
+set. 08, 2026 4:54:25 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 269
+2026.09.08 16:54:39 INFO  time: indexed workspace in 1m30s
+2026.09.08 16:54:47 INFO  compiling consultoriomedico (82 java sources)
+set. 08, 2026 4:54:55 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 278
+set. 08, 2026 4:55:01 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 279
+set. 08, 2026 4:55:45 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 281
+2026.09.08 16:55:47 WARN  Unexpected javac output: Note: Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\UsuarioService.java:6: error: package org.springframework.security.crypto.bcrypt does not exist
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+                                                 ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\UsuarioService.java:15: error: cannot find symbol
+    private final BCryptPasswordEncoder encoder;
+                  ^
+  symbol:   class BCryptPasswordEncoder
+  location: class UsuarioService
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\Service\UsuarioService.java:20: error: cannot find symbol
+            BCryptPasswordEncoder encoder
+            ^
+  symbol:   class BCryptPasswordEncoder
+  location: class UsuarioService
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\WebController\VentaWebController.java:12: error: package org.springframework.security.core does not exist
+import org.springframework.security.core.Authentication;
+                                        ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\WebController\VentaWebController.java:62: error: cannot find symbol
+                           Authentication authentication,
+                           ^
+  symbol:   class Authentication
+  location: class VentaWebController
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\CustomUserDetailsService.java:6: error: package org.springframework.security.core.authority does not exist
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
+                                                  ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\CustomUserDetailsService.java:7: error: package org.springframework.security.core.userdetails does not exist
+import org.springframework.security.core.userdetails.User;
+                                                    ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\CustomUserDetailsService.java:8: error: package org.springframework.security.core.userdetails does not exist
+import org.springframework.security.core.userdetails.UserDetails;
+                                                    ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\CustomUserDetailsService.java:9: error: package org.springframework.security.core.userdetails does not exist
+import org.springframework.security.core.userdetails.UserDetailsService;
+                                                    ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\CustomUserDetailsService.java:10: error: package org.springframework.security.core.userdetails does not exist
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
+                                                    ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\CustomUserDetailsService.java:28: error: cannot find symbol
+public class CustomUserDetailsService implements UserDetailsService {
+                                                 ^
+  symbol: class UserDetailsService
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\CustomUserDetailsService.java:37: error: cannot find symbol
+    public UserDetails loadUserByUsername(String email) throws UsernameNotFoundException {
+           ^
+  symbol:   class UserDetails
+  location: class CustomUserDetailsService
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\CustomUserDetailsService.java:37: error: cannot find symbol
+    public UserDetails loadUserByUsername(String email) throws UsernameNotFoundException {
+                                                               ^
+  symbol:   class UsernameNotFoundException
+  location: class CustomUserDetailsService
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:5: error: package org.springframework.security.config.annotation.web.builders does not exist
+import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+                                                                  ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:6: error: package org.springframework.security.web does not exist
+import org.springframework.security.web.SecurityFilterChain;
+                                       ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:7: error: package org.springframework.security.crypto.bcrypt does not exist
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+                                                 ^
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:25: error: cannot find symbol
+    public BCryptPasswordEncoder passwordEncoder() {
+           ^
+  symbol:   class BCryptPasswordEncoder
+  location: class SecurityConfig
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:30: error: cannot find symbol
+    public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
+                                                   ^
+  symbol:   class HttpSecurity
+  location: class SecurityConfig
+C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java:30: error: cannot find symbol
+    public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
+           ^
+  symbol:   class SecurityFilterChain
+  location: class SecurityConfig
+19 errors.
+2026.09.08 16:55:47 INFO  Note: Annotation processing is enabled because one or more processors were found
+2026.09.08 16:55:47 INFO  [0.166s][warning][cds] The shared archive file was created by a different version or build of HotSpot
+2026.09.08 16:55:47 WARN  javac exited with exit code 1
+2026.09.08 16:55:47 INFO  time: compiled consultoriomedico in 1m
+set. 08, 2026 4:55:47 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 283
+set. 08, 2026 4:55:48 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 287
+2026.09.08 16:55:53 WARN  High memory usage detected: 97% (2006 MB / 2048 MB)
+2026.09.08 16:56:48 ERROR Bloop 'bsp' command exited with code 1. Something may be wrong with the current configuration.
+Running the [1mclean[0m sub-command to clear the working directory and remove caches might help.
+If the error persists, please report the issue as a bug and attach a log with increased verbosity by passing [1m-v -v -v[0m.
+2026.09.08 16:56:49 INFO  Found a Bloop server running
+set. 08, 2026 4:56:48 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 292
+set. 08, 2026 4:56:49 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 294
+set. 08, 2026 4:56:49 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 295
+set. 08, 2026 4:56:49 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 293
+2026.09.08 16:56:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Antony\Documents\Proyecto_FM\.metals\bsp.trace.json or C:\Users\Antony\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.09.08 16:57:37 ERROR Bloop 'bsp' command exited with code 1. Something may be wrong with the current configuration.
+Running the [1mclean[0m sub-command to clear the working directory and remove caches might help.
+If the error persists, please report the issue as a bug and attach a log with increased verbosity by passing [1m-v -v -v[0m.
+set. 08, 2026 4:57:37 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 298
+set. 08, 2026 4:57:38 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 301
+set. 08, 2026 4:57:38 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 302
+set. 08, 2026 4:57:38 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 305
+set. 08, 2026 4:57:38 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 303
+2026.09.08 17:02:28 INFO  Started: Metals version 1.6.7+41-335bd931-SNAPSHOT in folders 'C:\Users\Antony\Documents\Proyecto_FM' for client Visual Studio Code 1.136.2.
+2026.09.08 17:02:28 INFO  time: initialize in 0.32s
+2026.09.08 17:02:59 INFO  Memory monitor started
+2026.09.08 17:03:10 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.09.08 17:03:13 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.09.08 17:03:15 INFO  Attempting to connect to the build server...
+2026.09.08 17:03:16 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java. Using fallback presentation compiler.
+set. 08, 2026 5:03:17 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+2026.09.08 17:03:17 INFO  Found a Bloop server running
+2026.09.08 17:03:17 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java. Using fallback presentation compiler.
+set. 08, 2026 5:03:17 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+2026.09.08 17:03:17 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java. Using fallback presentation compiler.
+set. 08, 2026 5:03:19 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10
+2026.09.08 17:03:19 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.09.08 17:03:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Antony\Documents\Proyecto_FM\.metals\bsp.trace.json or C:\Users\Antony\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.09.08 17:03:22 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.09.08 17:03:23 INFO  time: Connected to build server in 7.32s
+2026.09.08 17:03:22 INFO  Connected to Build server: Bloop v2.1.1
+2026.09.08 17:03:26 INFO  no build target found for C:\Users\Antony\Documents\Proyecto_FM\src\main\java\com\example\consultoriomedico\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.09.08 17:03:27 INFO  time: Imported build in 0.97s
+set. 08, 2026 5:04:02 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18
+2026.09.08 17:04:08 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+set. 08, 2026 5:04:09 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20
+set. 08, 2026 5:05:18 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 22
+2026.09.08 17:05:43 WARN  High memory usage detected: 90% (1858 MB / 2048 MB)
+2026.09.08 17:05:46 INFO  time: indexed workspace in 2m18s
+2026.09.08 17:05:51 INFO  compiling consultoriomedico (82 java sources)
+set. 08, 2026 5:05:55 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.09.08 17:08:18 ERROR Bloop 'bsp' command exited with code 1. Something may be wrong with the current configuration.
+Running the [1mclean[0m sub-command to clear the working directory and remove caches might help.
+If the error persists, please report the issue as a bug and attach a log with increased verbosity by passing [1m-v -v -v[0m.
+set. 08, 2026 5:08:15 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 31
+set. 08, 2026 5:08:18 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.09.08 17:08:19 INFO  Found a Bloop server running
+set. 08, 2026 5:08:19 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.09.08 17:09:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Antony\Documents\Proyecto_FM\.metals\bsp.trace.json or C:\Users\Antony\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.09.08 17:09:18 ERROR Bloop 'bsp' command exited with code 1. Something may be wrong with the current configuration.
+Running the [1mclean[0m sub-command to clear the working directory and remove caches might help.
+If the error persists, please report the issue as a bug and attach a log with increased verbosity by passing [1m-v -v -v[0m.

@@ -29,7 +29,7 @@
                                 <span class="badge" th:classappend="'badge-estado-' + ${#strings.toLowerCase(c.estado)}" th:text="${c.estado}"></span>
                             </td>
                             <td class="text-end">
-                                <button th:onclick="'confirmarEliminar(\'/app/citas/eliminar/' + ${c.id} + '\', \'' + ${c.paciente} + '\')'" class="btn btn-sm btn-light text-danger">
+                                <button th:data-url="@{/app/citas/eliminar/{id}(id=${c.id})}" th:data-nombre="${c.paciente}" onclick="confirmarEliminar(this.dataset.url, this.dataset.nombre)" class="btn btn-sm btn-light text-danger">
                                     <i class="bi bi-trash"></i>
                                 </button>
                             </td>

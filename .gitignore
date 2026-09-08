@@ -31,3 +31,7 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Metals / Bloop (Scala tooling, no debería estar en un proyecto Java) ###
+.bloop/
+.metals/

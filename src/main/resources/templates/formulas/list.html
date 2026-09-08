@@ -26,7 +26,7 @@
                             <td th:text="${f.categoria}"></td>
                             <td th:text="'S/ ' + ${f.precio_venta}"></td>
                             <td class="text-end">
-                                <button th:onclick="'confirmarEliminar(\'/app/formulas/eliminar/' + ${f.id} + '\', \'' + ${f.nombre} + '\')'" class="btn btn-sm btn-light text-danger">
+                                <button th:data-url="@{/app/formulas/eliminar/{id}(id=${f.id})}" th:data-nombre="${f.nombre}" onclick="confirmarEliminar(this.dataset.url, this.dataset.nombre)" class="btn btn-sm btn-light text-danger">
                                     <i class="bi bi-trash"></i>
                                 </button>
                             </td>

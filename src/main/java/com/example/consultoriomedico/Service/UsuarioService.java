@@ -49,7 +49,6 @@ public class UsuarioService {
 
 
 
-<<<<<<< HEAD
     /** Usado para resolver al usuario actualmente logueado (por su email) al registrar ventas/movimientos. */
     public Usuario buscarPorEmail(String email){
         return repository.findByEmail(email);
@@ -57,8 +56,6 @@ public class UsuarioService {
 
 
 
-=======
->>>>>>> 4aa01638f118a77226d52029b8c22d2f96991c71
     public void eliminar(Integer id){
         repository.deleteById(id);
     }
