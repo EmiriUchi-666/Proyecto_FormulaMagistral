@@ -73,27 +73,30 @@ public class UsuarioController {
     }
 
 
-
     // ELIMINAR
     @DeleteMapping("/{id}")
-    public ResponseEntity<Void> eliminar(@PathVariable Integer id){
-
+    public ResponseEntity<?> eliminar(@PathVariable Integer id){
 
         Usuario usuario = service.buscar(id);
 
-
         if(usuario == null){
-
             return ResponseEntity.notFound().build();
+        }
 
+
+        // Validar que no se elimine un ADMIN
+        if(usuario.getRol() != null &&
+        "ADMIN".equalsIgnoreCase(usuario.getRol().getNombre())){
+
+            return ResponseEntity
+                    .status(HttpStatus.FORBIDDEN)
+                    .body("No se puede eliminar un usuario administrador");
         }
 
 
         service.eliminar(id);
 
-
-        return ResponseEntity.noContent().build();
-
+        return ResponseEntity.ok("Usuario eliminado correctamente");
     }
 
 }

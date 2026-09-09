@@ -83,12 +83,24 @@ public class DashboardWebController {
     }
 
     private Map<String, Object> aVistaVenta(Venta v) {
-        Map<String, Object> m = new LinkedHashMap<>();
-        m.put("id", v.getIdVenta());
-        m.put("cliente", v.getPaciente() != null ? v.getPaciente().getNombres() + " " + v.getPaciente().getApellidos() : "—");
-        m.put("total", v.getTotal());
-        m.put("estado", v.getEstado());
-        return m;
-    }
+
+    Map<String, Object> m = new LinkedHashMap<>();
+
+    m.put("id", v.getIdVenta());
+
+    m.put("paciente",
+            v.getPaciente() != null
+            ? v.getPaciente().getNombres() + " " + v.getPaciente().getApellidos()
+            : "Sin paciente");
+
+    m.put("total", v.getTotal());
+
+    m.put("estado",
+            v.getEstado() != null
+            ? v.getEstado()
+            : "SIN ESTADO");
+
+    return m;
+}
 
 }

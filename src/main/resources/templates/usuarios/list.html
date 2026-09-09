@@ -25,10 +25,16 @@
                             <td th:text="${u.email}"></td>
                             <td th:text="${u.nombres}"></td>
                             <td><span class="badge bg-primary" th:text="${u.rol}"></span></td>
-                            <td class="text-end">
-                                <button th:data-url="@{/app/usuarios/eliminar/{id}(id=${u.id})}" th:data-nombre="${u.email}" onclick="confirmarEliminar(this.dataset.url, this.dataset.nombre)" class="btn btn-sm btn-light text-danger">
-                                    <i class="bi bi-trash"></i>
+                                                        <td class="text-end">
+
+                               <button th:if="${u.rol != 'ADMIN'}"
+                                th:data-url="@{/app/usuarios/eliminar/{id}(id=${u.id})}" 
+                                th:data-nombre="${u.email}" 
+                                onclick="confirmarEliminar(this.dataset.url, this.dataset.nombre)" 
+                                class="btn btn-sm btn-light text-danger">
+
                                 </button>
+
                             </td>
                         </tr>
                     </tbody>
