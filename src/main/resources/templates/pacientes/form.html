@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      lang="es"
+      th:replace="~{layout/main :: layout(${paciente.idPaciente} != null ? 'Editar Paciente' : 'Nuevo Paciente', 'pacientes/form')}">
+<body>
+<main th:fragment="content">
+    <h4 class="mb-4" th:text="${paciente.idPaciente} != null ? 'Editar Paciente' : 'Nuevo Paciente'">Título</h4>
+    <div class="card border-0 shadow-sm p-4" style="max-width: 600px;">
+        <form th:action="@{/app/pacientes/guardar}" method="post">
+            <input type="hidden" name="idPaciente" th:value="${paciente.idPaciente}">
+
+            <div class="mb-3">
+                <label class="form-label">Tipo de Documento</label>
+                <select class="form-select" name="tipoDocumento" required>
+                    <option value="DNI" 
+                    th:selected="${paciente.tipoDocumento == 'DNI' or paciente.tipoDocumento == null}">
+                    DNI
+                    </option>
+                    <option value="CE" th:selected="${paciente.tipoDocumento} == 'CE'">Carné de Extranjería</option>
+                    <option value="PASAPORTE" th:selected="${paciente.tipoDocumento} == 'PASAPORTE'">Pasaporte</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="numDocumento" class="form-label">N° Documento</label>
+                <input type="text" class="form-control" id="numDocumento" name="numDocumento" th:value="${paciente.numDocumento}" required>
+            </div>
+            <div class="mb-3">
+                <label for="nombres" class="form-label">Nombres</label>
+                <input type="text" class="form-control" id="nombres" name="nombres" th:value="${paciente.nombres}" required>
+            </div>
+            <div class="mb-3">
+                <label for="apellidos" class="form-label">Apellidos</label>
+                <input type="text" class="form-control" id="apellidos" name="apellidos" th:value="${paciente.apellidos}" required>
+            </div>
+            <div class="mb-3">
+                <label for="telefono" class="form-label">Teléfono</label>
+                <input type="text" class="form-control" id="telefono" name="telefono" th:value="${paciente.telefono}">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" name="email" th:value="${paciente.email}">
+            </div>
+            <div class="d-flex gap-2">
+                <button type="submit" class="btn btn-success">Guardar</button>
+                <a th:href="@{/app/pacientes}" class="btn btn-outline-secondary">Cancelar</a>
+            </div>
+        </form>
+    </div>
+</main>
+<th:block th:fragment="scripts"></th:block>
+</body>
+</html>

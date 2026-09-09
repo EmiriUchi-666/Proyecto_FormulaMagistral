@@ -44,18 +44,20 @@
                 <div class="table-responsive">
                     <table class="table table-hover align-middle mb-0">
                         <thead>
-                            <tr><th>ID</th><th>Cliente</th><th>Total</th><th>Estado</th></tr>
+                            <tr><th>ID</th><th>Paciente</th><th>Total</th><th>Estado</th></tr>
                         </thead>
                         <tbody>
-                            <tr th:each="v : ${ultimasVentas}">
-                                <td th:text="${v.id}"></td>
-                                <td th:text="${v.cliente}"></td>
-                                <td th:text="${v.total}"></td>
-                                <td>
-                                    <span class="badge" th:classappend="'badge-estado-' + ${#strings.toLowerCase(v.estado)}" th:text="${v.estado}"></span>
-                                </td>
-                            </tr>
-                        </tbody>
+    <tr th:each="v : ${ultimasVentas}">
+        <td th:text="${v.id}"></td>
+        <td th:text="${v.paciente}"></td>
+        <td th:text="${v.total}"></td>
+        <td>
+            <span class="badge"
+                  th:text="${v.estado}">
+            </span>
+        </td>
+    </tr>
+</tbody>
                     </table>
                 </div>
             </div>
